@@ -1,0 +1,19 @@
+{
+  "id": "chapter-1",
+  "title": "Advanced Video Editing Workflows",
+  "description": "This chapter explores professional video editing techniques, collaboration methods, visual effects, and export optimization.",
+  "subtopics": [
+    {
+      "id": "audio-editing-integration",
+      "title": "External Audio Editing Integration",
+      "content": "Advanced video production often requires precise audio control. Audio tracks can be exported as WAV files, refined using professional audio tools, and re-imported for accurate synchronization on the timeline.",
+      "codeExample": ""
+    },
+    {
+      "id": "social-media-editing",
+      "title": "Editing for Social Media Formats",
+      "content": "Social media platforms require different aspect ratios. Editors use custom profiles to adapt content for vertical and horizontal formats while maintaining proper framing and visual balance.",
+      "codeExample": ""
+    }
+  ]
+}
