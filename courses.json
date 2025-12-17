@@ -1,0 +1,25 @@
+{
+  "courses": [
+    {
+      "id": "javascript-basics",
+      "title": "JavaScript Fundamentals",
+      "description": "Learn JavaScript from scratch. Master the basics of variables, functions, loops and more.",
+      "estimatedTime": "15 hours",
+      "level": "Beginner"
+    },
+    {
+      "id": "react-masterclass",
+      "title": "React Masterclass",
+      "description": "Build modern web applications with React. Learn hooks, state management, and best practices.",
+      "estimatedTime": "20 hours",
+      "level": "Intermediate"
+    },
+    {
+      "id": "nodejs-backend",
+      "title": "Node.js Backend Development",
+      "description": "Create scalable backend services with Node.js, Express, and MongoDB.",
+      "estimatedTime": "25 hours",
+      "level": "Intermediate"
+    }
+  ]
+}
