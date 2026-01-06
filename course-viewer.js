@@ -173,6 +173,8 @@ class CourseViewer {
     }
     
     renderChapterContent() {
+        if (!this.currentChapter) return;
+        
         const contentArea = document.getElementById('courseContent');
         
         contentArea.innerHTML = `
