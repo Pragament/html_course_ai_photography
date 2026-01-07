@@ -1,0 +1,19 @@
+{
+  "id": "chapter-3-science",
+  "title": "Science: Organ Systems",
+  "description": "Learn about the digestive and respiratory systems through case studies that explain how our body processes food and breathes for Class 5 students.",
+  "subtopics": [
+    {
+      "id": "digestive-system",
+      "title": "The Digestive System",
+      "content": "## How Food Becomes Energy\n\nThe digestive system breaks down food into simpler substances called nutrients. It includes mouth, esophagus, stomach, small intestine, large intestine, and anus.\n\n### Step-by-Step Process:\n- **Mouth**: Saliva softens food\n- **Stomach**: Mixes food with digestive juices to form a soft paste\n- **Small Intestine**: Absorbs nutrients into the blood\n- **Large Intestine**: Absorbs water and sends waste out through the anus\n\nDigested nutrients give us energy and help in growth and repair.",
+      "codeExample": "### Understanding Digestion:\n- Where does food mixing happen? (Stomach)\n- What does small intestine absorb? (Nutrients)\n- What helps soften food in mouth? (Saliva)\n\n### Activity:\nDraw the digestive system path: Mouth → Stomach → Small Intestine → Large Intestine → Anus"
+    },
+    {
+      "id": "respiratory-system",
+      "title": "The Respiratory System",
+      "content": "## How We Breathe\n\nThe respiratory system helps us breathe. It includes nose, windpipe (trachea), lungs, and diaphragm.\n\n### Breathing Process:\n- **Inhale**: Oxygen enters through nose to lungs\n- **Lungs**: Gases are exchanged (oxygen in, carbon dioxide out)\n- **Exhale**: Carbon dioxide leaves the body\n\nThe diaphragm muscle below lungs helps with breathing by expanding and contracting.",
+      "codeExample": "### Breathing Questions:\n- What do we inhale? (Oxygen)\n- Where does gas exchange happen? (Lungs)\n- What muscle helps breathing? (Diaphragm)\n\n### Activity:\n- Feel your diaphragm move when breathing deeply\n- Time how long you can hold breath (safely!)\n- Count breaths per minute at rest vs. running"
+    }
+  ]
+}

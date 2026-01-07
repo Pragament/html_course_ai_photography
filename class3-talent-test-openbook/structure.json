@@ -1,0 +1,89 @@
+{
+  "courseId": "class3-r1-online-course",
+  "chapters": [
+    {
+      "id": "chapter-1-english",
+      "title": "English",
+      "order": 1,
+      "topics": [
+        {
+          "id": "capitalisation",
+          "title": "Capitalisation"
+        },
+        {
+          "id": "punctuation",
+          "title": "Punctuation"
+        },
+        {
+          "id": "homophones",
+          "title": "Homophones"
+        },
+        {
+          "id": "proper-common-nouns",
+          "title": "Proper and Common Nouns"
+        },
+        {
+          "id": "nouns-singular-plural-gender",
+          "title": "Nouns: Singular, Plural and Gender"
+        }
+      ]
+    },
+    {
+      "id": "chapter-2-maths",
+      "title": "Mathematics",
+      "order": 2,
+      "topics": [
+        {
+          "id": "fun-with-numbers",
+          "title": "Fun with Numbers"
+        },
+        {
+          "id": "more-about-multiplication",
+          "title": "More About Multiplication"
+        },
+        {
+          "id": "division",
+          "title": "Division"
+        }
+      ]
+    },
+    {
+      "id": "chapter-3-science",
+      "title": "Science",
+      "order": 3,
+      "topics": [
+        {
+          "id": "sense-organs",
+          "title": "My Sense Organs"
+        }
+      ]
+    },
+    {
+      "id": "chapter-4-gk",
+      "title": "General Knowledge",
+      "order": 4,
+      "topics": [
+        {
+          "id": "animals-birds",
+          "title": "Animals and Birds"
+        },
+        {
+          "id": "plants-nature",
+          "title": "Plants and Nature"
+        },
+        {
+          "id": "india-festivals",
+          "title": "India and Festivals"
+        },
+        {
+          "id": "world-around-us",
+          "title": "The World Around Us"
+        },
+        {
+          "id": "miscellaneous-facts",
+          "title": "Miscellaneous Facts"
+        }
+      ]
+    }
+  ]
+}

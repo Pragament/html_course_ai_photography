@@ -1,0 +1,43 @@
+{
+  "id": "chapter-2-maths",
+  "title": "Mathematics: Factors and Multiples",
+  "description": "Explore factors, multiples, common factors, common multiples, prime/composite numbers, HCF, and LCM for Class 5 students through clear definitions and examples.",
+  "subtopics": [
+    {
+      "id": "factors",
+      "title": "What are Factors?",
+      "content": "## Factors Explained\n\nA factor of a number divides that number exactly without leaving a remainder. Factors are the numbers we multiply to get another number.\n\n### Examples:\n- Factors of 12 are: 1, 2, 3, 4, 6, 12\n\nFactors help identify pairs that multiply to the original number.",
+      "codeExample": "### Practice:\n- List factors of 18: 1, 2, 3, 6, 9, 18\n- Find factors of 10: 1, 2, 5, 10\n\n### Activity:\nIdentify factor pairs for 24."
+    },
+    {
+      "id": "multiples",
+      "title": "What are Multiples?",
+      "content": "## Multiples Explained\n\nA multiple of a number is obtained by multiplying it by whole numbers like 1, 2, 3, 4, 5.\n\n### Examples:\n- Multiples of 7: 7, 14, 21, 28, 35, 42, 49\n\nMultiples show repeated addition of the number.",
+      "codeExample": "### Practice:\n- List first 5 multiples of 3: 3, 6, 9, 12, 15\n- Multiples of 4: 4, 8, 12, 16, 20\n\n### Activity:\nWrite multiples of 5 up to 30."
+    },
+    {
+      "id": "common-factors",
+      "title": "Common Factors",
+      "content": "## Common Factors\n\nCommon factors are numbers shared by two or more numbers.\n\n### Example:\n- Factors of 12: 1, 2, 3, 4, 6, 12\n- Factors of 18: 1, 2, 3, 6, 9, 18\n- Common factors: 1, 2, 3, 6",
+      "codeExample": "### Practice:\n- Common factors of 15 and 25: 1, 5\n- Common factors of 20 and 30: 1, 2, 5, 10\n\n### Activity:\nFind common factors of 8 and 12."
+    },
+    {
+      "id": "common-multiples",
+      "title": "Common Multiples",
+      "content": "## Common Multiples\n\nCommon multiples are multiples shared by two or more numbers.\n\n### Example:\n- Multiples of 3: 3, 6, 9, 12, 15, 18\n- Multiples of 4: 4, 8, 12, 16, 20\n- Common multiples: 12, 24, 36",
+      "codeExample": "### Practice:\n- Common multiples of 2 and 5: 10, 20, 30\n- First common multiple of 6 and 8: 24\n\n### Activity:\nList three common multiples of 9 and 12."
+    },
+    {
+      "id": "prime-composite",
+      "title": "Prime and Composite Numbers",
+      "content": "## Prime and Composite Numbers\n\n- Prime Number: Has only two factors – 1 and itself. Examples: 2, 3, 5, 7, 11, 13\n- Composite Number: Has more than two factors. Examples: 4, 6, 8, 9, 10, 12",
+      "codeExample": "### Practice:\n- Identify primes: 17 (prime), 21 (composite)\n- List composites between 10-20: 12, 14, 15, 16, 18, 20\n\n### Activity:\nClassify numbers 1-20 as prime or composite."
+    },
+    {
+      "id": "hcf-lcm",
+      "title": "HCF and LCM",
+      "content": "## Highest Common Factor (HCF) and Least Common Multiple (LCM)\n\n- HCF: The greatest number that divides two or more numbers exactly. Example: HCF of 12 and 18 = 6\n- LCM: The smallest common multiple of two or more numbers. Example: LCM of 4 and 6 = 12",
+      "codeExample": "### Practice:\n- HCF of 15 and 25 = 5\n- LCM of 3 and 4 = 12\n\n### Activity:\nCalculate HCF of 20 and 30; LCM of 5 and 7."
+    }
+  ]
+}

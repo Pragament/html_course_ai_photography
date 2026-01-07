@@ -1,0 +1,37 @@
+{
+  "id": "chapter-4-gk",
+  "title": "General Knowledge",
+  "description": "Discover interesting facts about animals, birds, plants, India festivals, the world around us, and miscellaneous knowledge through engaging topics for Class 3 students.",
+  "subtopics": [
+    {
+      "id": "animals-birds",
+      "title": "Animals and Birds",
+      "content": "## Animal Kingdom Facts\n\nThe lion is known as the King of the Jungle. Pandas mainly eat bamboo. The parrot can imitate human speech. A baby frog is called a tadpole.",
+      "codeExample": "### Animal Questions:\n- Who is King of Jungle?\n- What do pandas eat?\n- Which bird talks like humans?\n- Baby frog name?\n\n### Activity:\n- Match animals with facts\n- Draw your favorite animal"
+    },
+    {
+      "id": "plants-nature",
+      "title": "Plants and Nature",
+      "content": "## Plant World Facts\n\nThe leaf makes food for the plant by photosynthesis. The Sequoia Redwood is the biggest tree in the world. During photosynthesis, plants take in carbon dioxide and give out oxygen.",
+      "codeExample": "### Plant Questions:\n- How do leaves make food?\n- Biggest tree name?\n- What plants give out?\n\n### Activity:\n- Name parts of a plant\n- Draw a tree with labeled parts"
+    },
+    {
+      "id": "india-festivals",
+      "title": "India and Festivals",
+      "content": "## India Facts\n\nMahatma Gandhi is called the Father of the Nation. Diwali is known as the Festival of Lights. The capital city of India is New Delhi. The national flower of India is the Lotus.",
+      "codeExample": "### India Questions:\n- Father of Nation?\n- Festival of Lights?\n- India capital city?\n- National flower?\n\n### Activity:\n- Color Indian flag\n- Write 3 India facts"
+    },
+    {
+      "id": "world-around-us",
+      "title": "The World Around Us",
+      "content": "## World Facts\n\nMars is called the Red Planet. The Sun is a star, not a planet. The Pacific Ocean is the largest ocean in the world. The telephone was invented by Alexander Graham Bell.",
+      "codeExample": "### World Questions:\n- Red Planet name?\n- Sun type?\n- Largest ocean?\n- Telephone inventor?\n\n### Activity:\n- Draw solar system\n- Mark oceans on world map"
+    },
+    {
+      "id": "miscellaneous-facts",
+      "title": "Miscellaneous Facts",
+      "content": "## Fun Facts\n\nA rainbow has 7 colors. A triangle has 3 sides. Virat Kohli plays cricket for India. Australia is the smallest continent. The currency of India is the Rupee.",
+      "codeExample": "### Fun Questions:\n- Rainbow colors count?\n- Triangle sides?\n- India cricket player?\n- Smallest continent?\n- India money name?\n\n### Activity:\n- List rainbow colors\n- Draw shapes with sides"
+    }
+  ]
+}

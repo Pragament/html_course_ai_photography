@@ -1,0 +1,25 @@
+{
+  "id": "chapter-2-maths",
+  "title": "Mathematics: Basic Operations",
+  "description": "Explore fundamental math concepts including even/odd numbers, skip counting, multiplication as repeated addition, and division for Class 3 students through clear examples and practice.",
+  "subtopics": [
+    {
+      "id": "fun-with-numbers",
+      "title": "Fun with Numbers",
+      "content": "## Even and Odd Numbers\n\nEven numbers: 2, 4, 6, 8... (2 in each group). Odd numbers: 1, 3, 5, 7... (1 left over). Skip counting by 2s, 5s, or 10s. Patterns in numbers: 2, 4, 6, 8 (add 2 each time).",
+      "codeExample": "### Practice Questions:\n- Which are even numbers: 2, 4, 6?\n- Identify odd numbers: 1, 3, 5?\n- Skip count by 2s from 10 to 20.\n\n### Activity:\n- Complete the pattern: 2, 4, 6, __, __\n- Circle even numbers in a list"
+    },
+    {
+      "id": "more-about-multiplication",
+      "title": "More About Multiplication",
+      "content": "## Multiplication Basics\n\nMultiplication as repeated addition: 3 × 4 = 4 + 4 + 4 = 12. Multiplication table idea: 5 × 2 = 10. Commutative property: 3 × 5 = 5 × 3 = 15. Multiplying by 10: 4 × 10 = 40.",
+      "codeExample": "### Key Questions:\n- What is 3 × 4 as repeated addition?\n- Is 3 × 5 same as 5 × 3?\n- What is 6 × 10?\n\n### Practice:\n- Complete: 2 × 5 = __\n- Fill multiplication table for 3\n- Solve: 4 × 10 = __"
+    },
+    {
+      "id": "division",
+      "title": "Division",
+      "content": "## Division Concepts\n\nDivision as equal sharing: 12 ÷ 4 = 3 (12 shared among 4 kids, each gets 3). Division as repeated subtraction: 15 ÷ 3 = 5 (15-3-3-3-3-3). Relation to multiplication: 4 × 3 = 12 and 12 ÷ 3 = 4. Division by 1 or same number: 8 ÷ 1 = 8, 8 ÷ 8 = 1.",
+      "codeExample": "### Practice Questions:\n- Share 12 candies among 4 friends?\n- How many times does 3 go into 15?\n- What is 10 ÷ 10?\n\n### Activity:\n- Solve: 20 ÷ 4 = __\n- Match multiplication and division facts\n- Divide 18 toys among 3 children"
+    }
+  ]
+}

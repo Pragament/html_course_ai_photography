@@ -1,0 +1,37 @@
+{
+  "id": "chapter-1-english",
+  "title": "English Grammar Skills",
+  "description": "Develop foundational grammar skills through topics like capitalisation, punctuation, homophones, nouns, and gender for Class 3 students.",
+  "subtopics": [
+    {
+      "id": "capitalisation",
+      "title": "Capitalisation",
+      "content": "## Capitalisation Rules\n\nBegin every sentence with a capital letter. Use capital letters for names of people (Riya, John), places (India, Delhi), days and months (Monday, July), and the word 'I' always.",
+      "codeExample": "### Understanding Capitalisation:\n- When do we use capital letters at the start of sentences?\n- Name some people and places that need capital letters.\n- Why is the word 'I' always capitalised?\n\n### Practice:\n- Rewrite sentences with correct capitalisation\n- Identify errors in capitalisation\n- Match names to capital letter rules"
+    },
+    {
+      "id": "punctuation",
+      "title": "Punctuation",
+      "content": "## Punctuation Marks\n\nFull stop (.) ends a sentence. Question mark (?) is used for questions. Exclamation mark (!) shows surprise or emotion. Comma (,) separates words in a list: I bought apples, bananas, and mangoes.",
+      "codeExample": "### Key Punctuation Questions:\n- What punctuation ends a statement?\n- Which mark is used for questions?\n- When do we use commas in sentences?\n\n### Practice:\n- Add missing punctuation to sentences\n- Choose correct punctuation marks\n- Identify punctuation in given examples"
+    },
+    {
+      "id": "homophones",
+      "title": "Homophones",
+      "content": "## Homophones\n\nHomophones are words that sound the same but have different meanings and spellings. Examples: see/sea, sun/son, two/too/to.",
+      "codeExample": "### Understanding Homophones:\n- What are homophones?\n- Give examples of homophones.\n- Choose correct homophone for sentences.\n\n### Practice:\n- Match homophone pairs\n- Fill in blanks with correct homophones\n- Identify homophones in passages"
+    },
+    {
+      "id": "proper-common-nouns",
+      "title": "Proper and Common Nouns",
+      "content": "## Proper and Common Nouns\n\nProper nouns are special names that always start with a capital: Ravi, India, Monday. Common nouns are general names: girl, city, school, dog.",
+      "codeExample": "### Noun Identification:\n- What is a proper noun?\n- What is a common noun?\n- Identify nouns in sentences.\n\n### Practice:\n- Classify nouns as proper/common\n- Capitalise proper nouns\n- Write examples of each type"
+    },
+    {
+      "id": "nouns-singular-plural-gender",
+      "title": "Nouns: Singular, Plural and Gender",
+      "content": "## Nouns: Singular, Plural and Gender\n\nSingular means one: boy, table. Plural means many: boys, tables. Masculine (male): king. Feminine (female): queen. Common: child, teacher. Neuter (non-living): pen, chair.",
+      "codeExample": "### Grammar Questions:\n- What is singular noun?\n- How do we make plurals?\n- What are masculine/feminine nouns?\n\n### Practice:\n- Change singular to plural\n- Match gender pairs\n- Identify noun types in sentences"
+    }
+  ]
+}

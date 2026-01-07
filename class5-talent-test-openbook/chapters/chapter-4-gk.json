@@ -1,0 +1,25 @@
+{
+  "id": "chapter-4-gk",
+  "title": "General Knowledge",
+  "description": "Discover facts about Olympics, Earth, science importance, inventions, environment, and India's culture through engaging topics for Class 5 students.",
+  "subtopics": [
+    {
+      "id": "olympic-games",
+      "title": "The Olympic Games",
+      "content": "## International Sports Event\n\nThe Olympic Games are the biggest international sports event. Athletes from many countries compete in sports like running, swimming, and gymnastics.\n\n### Key Features:\n- Symbol: Five interlinked rings showing unity among continents\n- Motto: \"Faster, Higher, Stronger - Together\"\n- Olympic torch lit in Greece and carried to host country\n\nGames promote friendship, peace, and sportsmanship.",
+      "codeExample": "### Recall Facts:\n- What does Olympic symbol represent? (Unity)\n- Where is torch lit? (Greece)\n- What does motto mean?\n\n### Activity:\nDraw Olympic rings and list 3 sports."
+    },
+    {
+      "id": "earth-environment",
+      "title": "Earth and Environment",
+      "content": "## Our Home Planet\n\nEarth has land, air, and water supporting life. Trees keep environment clean by giving oxygen.\n\n### Key Elements:\n- Land, air, water essential for life\n- Trees provide oxygen and cleanliness\n- Unity in diversity (like India)\n\nIndia known for culture and unity.",
+      "codeExample": "### Questions:\n- What do trees give? (Oxygen)\n- Earth's life supporters? (Land, air, water)\n\n### Activity:\nList ways trees help environment."
+    },
+    {
+      "id": "importance-of-science",
+      "title": "Importance of Science",
+      "content": "## Understanding the World\n\nScience helps understand the world. Sun provides light and heat for life. Water essential for living things. Plants make oxygen and food.\n\n### Discoveries:\n- Inventions: Telescope, microscope for exploration\n- Earth revolves around Sun, spins for day/night\n\nScience enables learning and progress.",
+      "codeExample": "### True Facts:\n- Sun gives? (Light, heat)\n- Plants make? (Oxygen, food)\n- Earth's movement causes? (Day/night)\n\n### Activity:\nName one invention and its use."
+    }
+  ]
+}

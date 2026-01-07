@@ -1,0 +1,77 @@
+{
+  "courseId": "class5-r1-online-course",
+  "chapters": [
+    {
+      "id": "chapter-1-english",
+      "title": "English",
+      "order": 1,
+      "topics": [
+        {
+          "id": "rc-passage-1",
+          "title": "Reading Comprehension Passage 1"
+        },
+        {
+          "id": "rc-passage-2",
+          "title": "Reading Comprehension Passage 2"
+        }
+      ]
+    },
+    {
+      "id": "chapter-2-maths",
+      "title": "Mathematics",
+      "order": 2,
+      "topics": [
+        {
+          "id": "factors-and-multiples",
+          "title": "Factors and Multiples"
+        },
+        {
+          "id": "common-factors-multiples",
+          "title": "Common Factors and Common Multiples"
+        },
+        {
+          "id": "prime-composite",
+          "title": "Prime and Composite Numbers"
+        },
+        {
+          "id": "hcf-lcm",
+          "title": "Highest Common Factor (HCF) and Least Common Multiple (LCM)"
+        }
+      ]
+    },
+    {
+      "id": "chapter-3-science",
+      "title": "Science",
+      "order": 3,
+      "topics": [
+        {
+          "id": "digestive-system",
+          "title": "The Digestive System"
+        },
+        {
+          "id": "respiratory-system",
+          "title": "The Respiratory System"
+        }
+      ]
+    },
+    {
+      "id": "chapter-4-gk",
+      "title": "General Knowledge",
+      "order": 4,
+      "topics": [
+        {
+          "id": "olympic-games",
+          "title": "The Olympic Games"
+        },
+        {
+          "id": "earth-and-inventions",
+          "title": "Earth, Environment and Inventions"
+        },
+        {
+          "id": "importance-of-science",
+          "title": "Importance of Science"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "chapter-1-english",
+  "title": "English Reading Comprehension",
+  "description": "Develop reading comprehension skills through engaging passages about teamwork, school projects, and garden activities for Class 5 students.",
+  "subtopics": [
+    {
+      "id": "rc-passage-1",
+      "title": "Reading Comprehension Passage 1",
+      "content": "## Teamwork in School Exhibition\n\nRinki and her classmates were preparing for a school exhibition. Everyone was assigned a task. Rinki had to design the poster for their project. She noticed that her friend Aman was struggling to build the model. Instead of ignoring him, she suggested a new idea and also helped him complete it. Their teamwork impressed the teacher, and the project was selected for display.",
+      "codeExample": "### Understanding the Passage:\n- Who was preparing for the school exhibition?\n- What task was assigned to Rinki?\n- How did Rinki help her friend Aman?\n- What was the result of their teamwork?\n\n### Vocabulary Building:\n- Identify words related to school activities\n- Find words showing helping behavior\n- Note words describing emotions and results"
+    },
+    {
+      "id": "rc-passage-2",
+      "title": "Reading Comprehension Passage 2",
+      "content": "## Planting Saplings in the Garden\n\nIn a small garden, children from different classes planted saplings. Each group chose a leader to guide them. One group's leader, Meera, made sure everyone got a chance to work. When one student tried to leave early and claim the credit, Meera politely explained the importance of honesty and encouraged him to finish his part.",
+      "codeExample": "### Key Comprehension Questions:\n- Where were the children working?\n- What did each group choose?\n- How did Meera behave as a leader?\n- What important value did Meera teach?\n\n### Theme Discussion:\n- Importance of leadership\n- Value of honesty\n- Team participation\n- Completing responsibilities"
+    }
+  ]
+}

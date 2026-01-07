@@ -20,6 +20,55 @@
       "description": "An open-book evaluation designed to assess analytical thinking, reasoning, and general awareness for Class 4 students.",
       "estimatedTime": "3 hours",
       "level": "Intermediate"
+    },
+    {
+      "id": "class5-talent-test-openbook",
+      "title": "Class 5 Talent Test Openbook",
+      "description": "An open-book evaluation designed to assess analytical thinking, reasoning, and general awareness for Class 5 students.",
+      "estimatedTime": "3 hours",
+      "level": "Intermediate"
+    },
+    {
+      "id": "class6-talent-test-openbook",
+      "title": "Class 6 Talent Test Openbook",
+      "description": "An open-book evaluation designed to assess analytical thinking, reasoning, and general awareness for Class 6 students.",
+      "estimatedTime": "3 hours",
+      "level": "Intermediate"
+    },
+    {
+      "id": "class7-talent-test-openbook",
+      "title": "Class 7 Talent Test Openbook",
+      "description": "An open-book evaluation designed to assess analytical thinking, reasoning, and general awareness for Class 7 students.",
+      "estimatedTime": "3 hours",
+      "level": "Intermediate"
+    },
+    {
+      "id": "class8-talent-test-openbook",
+      "title": "Class 8 Talent Test Openbook",
+      "description": "An open-book evaluation designed to assess analytical thinking, reasoning, and general awareness for Class 8 students.",
+      "estimatedTime": "3 hours",
+      "level": "Intermediate"
+    },
+    {
+      "id": "class1-talent-test-openbook",
+      "title": "Class 1 Talent Test Openbook",
+      "description": "An open-book evaluation designed to assess analytical thinking, reasoning, and general awareness for Class 1 students.",
+      "estimatedTime": "3 hours",
+      "level": "Intermediate"
+    },
+    {
+      "id": "class2-talent-test-openbook",
+      "title": "Class 2 Talent Test Openbook",
+      "description": "An open-book evaluation designed to assess analytical thinking, reasoning, and general awareness for Class 2 students.",
+      "estimatedTime": "3 hours",
+      "level": "Intermediate"
+    },
+    {
+      "id": "class3-talent-test-openbook",
+      "title": "Class 3 Talent Test Openbook",
+      "description": "An open-book evaluation designed to assess analytical thinking, reasoning, and general awareness for Class 3 students.",
+      "estimatedTime": "3 hours",
+      "level": "Intermediate"
     }
   ]
 }
