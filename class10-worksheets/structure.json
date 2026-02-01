@@ -1,0 +1,16 @@
+{
+  "courseId": "class10-maths-online-course",
+  "chapters": [
+    {
+      "id": "chapter-2-maths",
+      "title": "Mathematics",
+      "order": 2,
+      "topics": [
+        {
+          "id": "areas-related-to-circles",
+          "title": "Areas Related to Circles"
+        }
+      ]
+    }
+  ]
+}

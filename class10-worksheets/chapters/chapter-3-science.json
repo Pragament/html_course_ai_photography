@@ -1,0 +1,19 @@
+{
+  "id": "chapter-3-science",
+  "title": "Science",
+  "description": "Learn environmental practices and basic electricity concepts through passages and diagrams for Grade 8 students.",
+  "subtopics": [
+    {
+      "id": "eco-friendly-classroom",
+      "title": "Eco-Friendly Classroom",
+      "content": "## Eco-Friendly Classroom\n\nA group of students planned to make their classroom eco-friendly. They decided to plant small indoor plants, replace plastic bottles with steel bottles, and set up a compost bin for food waste. They also checked the classroom's electric wiring and lights to save energy.",
+      "codeExample": "### Comprehension Questions (Q21-25):\n- What steps did students take for eco-friendliness?\n- Why replace plastic with steel bottles?\n- What is a compost bin used for?\n- How to save energy with wiring and lights?\n- Why plant indoor plants?\n\n### Practice:\n- Identify sustainable practices\n- Explain benefits of each action\n- Plan your own eco-friendly initiatives"
+    },
+    {
+      "id": "electric-circuit",
+      "title": "Simple Electric Circuit",
+      "content": "## Diagram-Based: Simple Electric Circuit\n\nObserve the free-hand diagram of a simple electric circuit with a switch, bulb, and battery.",
+      "codeExample": "### Questions (Q26-30):\n- Identify components in the circuit\n- What happens when switch is ON?\n- Role of battery and bulb\n- Draw and label similar circuit\n- Explain open and closed circuit\n\n### Practice:\n- Describe circuit function\n- Predict circuit behavior\n- Experiment with circuit variations"
+    }
+  ]
+}

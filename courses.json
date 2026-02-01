@@ -69,6 +69,13 @@
       "description": "An open-book evaluation designed to assess analytical thinking, reasoning, and general awareness for Class 3 students.",
       "estimatedTime": "3 hours",
       "level": "Intermediate"
+    },
+    {
+      "id": "class10-worksheets",
+      "title": "CBSE Class 10 Maths - Areas Related to Circles",
+      "description": "An engaging learning module that teaches circle areas, sectors, arcs, and real-world applications through stories, games, and interactive activities.",
+      "estimatedTime": "4-5 hours",
+      "level": "Intermediate"
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "id": "chapter-1-english",
+  "title": "English Reading Comprehension",
+  "description": "Develop reading comprehension skills through engaging passages for Grade 8 students.",
+  "subtopics": [
+    {
+      "id": "rc-passage-forgotten-homework",
+      "title": "The Forgotten Homework",
+      "content": "## Reading Comprehension Passage 1\n\nRiya was a bright student but often forgot small tasks. One Monday morning, she realized she had forgotten to complete her English homework. She felt nervous as her teacher, Mrs. Nandini, was strict about deadlines. When her turn came, Riya admitted her mistake honestly. Instead of scolding her, Mrs. Nandini appreciated her honesty but reminded her about responsibility. That evening, Riya set a reminder and planned her study schedule. From that day, she never missed an assignment again.",
+      "codeExample": "### Comprehension Questions (Q1-5):\n- What was Riya's main problem?\n- How did Mrs. Nandini react to Riya's mistake?\n- What did Riya learn from this experience?\n- Why was Riya nervous in class?\n- What changes did Riya make after school?\n\n### Practice:\n- Answer questions based on passage details\n- Identify main idea and supporting details\n- Practice vocabulary from context"
+    },
+    {
+      "id": "rc-passage-clean-energy",
+      "title": "The Power of Clean Energy",
+      "content": "## Reading Comprehension Passage 2\n\nIn recent years, many countries have started using clean energy sources like solar, wind, and hydro power. These renewable sources do not release harmful gases into the atmosphere, unlike fossil fuels. Using clean energy not only reduces pollution but also helps slow down climate change. In India, solar panels are now being installed in villages and schools, making electricity both affordable and eco-friendly. If more people switch to clean energy, the Earth can become a safer and healthier place for future generations.",
+      "codeExample": "### Comprehension Questions (Q6-10):\n- What are clean energy sources mentioned?\n- How do clean energy sources help the environment?\n- What is happening with solar panels in India?\n- Why are fossil fuels harmful?\n- What benefit comes from switching to clean energy?\n\n### Practice:\n- Identify cause and effect relationships\n- Extract key facts from informational text\n- Summarize main points of the passage"
+    }
+  ]
+}

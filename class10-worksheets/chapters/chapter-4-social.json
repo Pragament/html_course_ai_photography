@@ -1,0 +1,25 @@
+{
+  "id": "chapter-4-social",
+  "title": "Social Studies",
+  "description": "Explore sports, national pride, and environmental responsibility through key topics for Grade 8 students.",
+  "subtopics": [
+    {
+      "id": "sports-discipline",
+      "title": "Sports and Discipline",
+      "content": "## Sports and Discipline\n\nSports play an important role in shaping a person's character. When students play in teams, they learn teamwork to cooperate, communicate, and trust each other to reach a common goal. Following the rules of a game teaches discipline, as players must practice regularly, respect the coach's guidance, and control their emotions during wins or losses. Regular participation in sports improves physical fitness, building strength, stamina, and coordination. Together, these values help students become healthier, more responsible, and better prepared to face challenges in life.",
+      "codeExample": "### Comprehension Questions (Q31-33):\n- How do sports teach teamwork?\n- What does discipline in sports involve?\n- Benefits of regular sports participation?\n\n### Practice:\n- Discuss sports values\n- Relate to personal experiences\n- Analyze team vs individual sports"
+    },
+    {
+      "id": "india-my-country",
+      "title": "India My Country",
+      "content": "## India My Country\n\nIndia is a diverse country with many languages, religions, and cultures. Its national symbols like the Tiranga, Ashoka Chakra, Tiger, and Peacock represent its pride and values. Famous monuments like the Taj Mahal and freedom fighters like Mahatma Gandhi show India's rich heritage and struggle for independence. Learning about India's geography, culture, and achievements helps us understand its unity and diversity.",
+      "codeExample": "### Comprehension Questions (Q34-36):\n- What are India's national symbols?\n- Examples of famous monuments and leaders?\n- How does diversity contribute to unity?\n\n### Practice:\n- List national symbols\n- Describe cultural diversity\n- Map key geographical features"
+    },
+    {
+      "id": "waste-management",
+      "title": "Waste Management",
+      "content": "## Waste Management\n\nWaste management is the process of collecting, separating, and disposing of waste properly. It helps keep our surroundings clean and prevents pollution. Reducing, reusing, and recycling waste are key steps to manage it effectively. Proper waste management protects health, conserves resources, and supports a sustainable environment.",
+      "codeExample": "### Comprehension Questions (Q36-40):\n- Define waste management\n- What are 3R's of waste management?\n- How does it prevent pollution?\n- Benefits to health and environment?\n\n### Practice:\n- Classify waste types\n- Plan household waste reduction\n- Promote recycling initiatives"
+    }
+  ]
+}
