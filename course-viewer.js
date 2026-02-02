@@ -72,10 +72,31 @@ class CourseViewer {
         try {
             this.showLoading(true);
             
-            // Track course loading
-            this.trackEvent('course_view', {
-                'course_id': courseId
+            // Track course view event
+            const course = this.courses.find(c => c.id === courseId);
+            this.trackEvent('view_course', {
+                'course_id': courseId,
+                'course_title': course?.title || '',
+                'category': course?.category || '',
+                'level': course?.level || '',
+                'estimated_time': course?.estimatedTime || ''
             });
+            
+            // Also track start_course event
+            this.trackEvent('start_course', {
+                'course_id': courseId,
+                'estimated_time': course?.estimatedTime || '',
+                'level': course?.level || ''
+            });
+            
+            // Track if this is an assessment course
+            if (course?.category === 'Assessment' || course?.tags?.includes('assessment')) {
+                this.trackEvent('start_assessment', {
+                    'course_id': courseId,
+                    'course_title': course?.title || '',
+                    'classes': (course?.classes || []).join(',')
+                });
+            }
             
             // Find course
             this.currentCourse = this.courses.find(c => c.id === courseId);
@@ -312,6 +333,18 @@ class CourseViewer {
             card.addEventListener('click', (e) => {
                 const id = card.dataset.courseId;
                 if (id) {
+                    // Find course data for tracking
+                    const course = this.courses.find(c => c.id === id);
+                    
+                    // Track course card click
+                    this.trackEvent('course_click', {
+                        'course_id': id,
+                        'course_title': course?.title || '',
+                        'category': course?.category || '',
+                        'level': course?.level || '',
+                        'source_page': 'homepage'
+                    });
+                    
                     // Navigate to separate course detail page
                     window.location.href = `course.html?course-id=${encodeURIComponent(id)}`;
                 }
@@ -325,6 +358,27 @@ class CourseViewer {
         const cls = document.getElementById('homepageClass').value;
         const subj = document.getElementById('homepageSubject').value;
         const tag = document.getElementById('homepageTag').value;
+
+        // Track search event if query exists
+        if (q) {
+            this.trackEvent('course_search', {
+                'search_query': q,
+                'filter_category': cat || '(none)',
+                'filter_class': cls || '(none)',
+                'filter_subject': subj || '(none)',
+                'filter_tag': tag || '(none)'
+            });
+        }
+
+        // Track filter events
+        if (cat || cls || subj || tag) {
+            this.trackEvent('filter_courses', {
+                'filter_category': cat || '(none)',
+                'filter_class': cls || '(none)',
+                'filter_subject': subj || '(none)',
+                'filter_tag': tag || '(none)'
+            });
+        }
 
         const results = this.courses.filter(c => {
             if (cat && c.category !== cat) return false;

@@ -180,6 +180,18 @@
       "tags": ["cbse", "comprehensive", "progressive-learning"],
       "status": true,
       "category": "Mathematics"
+    },
+    {
+      "id": "math-data-handling-classes-6-7-8",
+      "title": "Math Data Handling: Complete Guide (Classes 6-8)",
+      "description": "Comprehensive study material covering Data Handling basics, tables, pictographs, bar graphs, and problem-solving following CBSE curriculum progression.",
+      "estimatedTime": "40 hours",
+      "level": "Intermediate",
+      "subjects": ["Mathematics", "Data Handling"],
+      "classes": ["6", "7", "8"],
+      "tags": ["cbse", "comprehensive", "progressive-learning"],
+      "status": true,
+      "category": "Mathematics"
     }
   ]
 }

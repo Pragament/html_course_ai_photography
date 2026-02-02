@@ -1,0 +1,27 @@
+{
+  "courseId": "math-data-handling-classes-6-7-8",
+  "chapters": [
+    {
+      "id": "data-handling-classes-6-7-8",
+      "title": "Data Detectives: The Complete Statistics & Probability Adventure! \ud83d\udcca\ud83c\udfb2\ud83d\udd0d",
+      "order": 1,
+      "topics": [
+        {
+          "id": "class6-data-basics",
+          "title": "Class 6: Data Basics - The Collection & Visualization Wizards! \ud83e\uddd9\u200d\u2640\ufe0f\ud83d\udcc8",
+          "order": 1
+        },
+        {
+          "id": "class7-average-probability",
+          "title": "Class 7: Averages & Probability - The Pattern Predictors! \ud83c\udfaf\ud83d\udd2e",
+          "order": 2
+        },
+        {
+          "id": "class8-advanced-data-probability",
+          "title": "Class 8: Advanced Data & Probability - The Statistical Scientists! \ud83d\udd2c\ud83d\udcc8",
+          "order": 3
+        }
+      ]
+    }
+  ]
+}
