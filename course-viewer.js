@@ -5,6 +5,9 @@ class CourseViewer {
         this.currentChapter = null;
         this.courseStructure = null;
         this.allContent = new Map(); // Cache loaded chapters
+        this.mcqMap = new Map(); // subtopic_id -> [mcq objects]
+        this.mcqLoaded = false;
+        this.activeQuizzes = new Map(); // subtopicId -> state
         
         // Get course ID from URL parameter
         const urlParams = new URLSearchParams(window.location.search);
@@ -155,6 +158,11 @@ class CourseViewer {
             url.searchParams.set('chapter', chapterId);
             window.history.pushState({}, '', url);
             
+            // Load MCQs for this course (once)
+            if (!this.mcqLoaded) {
+                await this.loadMCQs();
+            }
+
             // Check if chapter is already cached
             if (!this.allContent.has(chapterId)) {
                 // Load chapter content
@@ -440,6 +448,50 @@ class CourseViewer {
         // Show content area
         document.getElementById('initialLoading').style.display = 'none';
         contentArea.style.display = 'block';
+        // After rendering subtopics, attach quiz toggle buttons where applicable
+        try {
+            const subtopicElems = contentArea.querySelectorAll('.subtopic-item');
+            subtopicElems.forEach(el => {
+                const sid = el.dataset.subtopicId;
+                // Check chapter-level practice-quiz flag and mcq availability
+                if (this.currentChapter && this.currentChapter['practice-quiz'] && this.mcqMap.has(sid)) {
+                    // Create toggle button and quiz container
+                    const btn = document.createElement('button');
+                    btn.className = 'quiz-toggle-btn';
+                    btn.textContent = 'Show Practice Quiz';
+                    btn.style.margin = '8px 0';
+                    btn.addEventListener('click', (e) => {
+                        const container = el.querySelector('.practice-quiz-container');
+                        if (container.style.display === 'block') {
+                            container.style.display = 'none';
+                            btn.textContent = 'Show Practice Quiz';
+                        } else {
+                            container.style.display = 'block';
+                            btn.textContent = 'Hide Practice Quiz';
+                        }
+                    });
+
+                    // Insert button after subtopic-content or at end
+                    const contentNode = el.querySelector('.subtopic-content') || el;
+                    contentNode.parentNode.insertBefore(btn, contentNode.nextSibling);
+
+                    // Create container
+                    const quizContainer = document.createElement('div');
+                    quizContainer.className = 'practice-quiz-container';
+                    quizContainer.style.display = 'none';
+                    quizContainer.style.border = '1px dashed #ddd';
+                    quizContainer.style.padding = '12px';
+                    quizContainer.style.marginTop = '8px';
+                    el.appendChild(quizContainer);
+
+                    // Render quiz into container
+                    const mcqs = this.mcqMap.get(sid) || [];
+                    this.renderQuizForSubtopic(el, mcqs);
+                }
+            });
+        } catch (err) {
+            console.error('Error attaching quizzes:', err);
+        }
     }
     
     formatContent(content) {
@@ -455,6 +507,240 @@ class CourseViewer {
             }
         });
         return marked.parse(content);
+    }
+
+    // Simple CSV parser that handles quoted fields
+    parseCSV(text) {
+        const rows = [];
+        let cur = '';
+        let row = [];
+        let inQuotes = false;
+        for (let i = 0; i < text.length; i++) {
+            const ch = text[i];
+            if (ch === '"') {
+                if (inQuotes && text[i+1] === '"') {
+                    cur += '"';
+                    i++; // skip escaped quote
+                } else {
+                    inQuotes = !inQuotes;
+                }
+            } else if (ch === ',' && !inQuotes) {
+                row.push(cur);
+                cur = '';
+            } else if ((ch === '\n' || ch === '\r') && !inQuotes) {
+                // handle CRLF
+                if (cur !== '' || row.length > 0) {
+                    row.push(cur);
+                    rows.push(row);
+                    row = [];
+                    cur = '';
+                }
+                // skip following LF in CRLF
+                if (ch === '\r' && text[i+1] === '\n') i++;
+            } else {
+                cur += ch;
+            }
+        }
+        if (cur !== '' || row.length > 0) {
+            row.push(cur);
+            rows.push(row);
+        }
+        // Normalize by trimming surrounding quotes and whitespace
+        return rows.map(r => r.map(cell => cell.replace(/^\s*"|"\s*$/g, '').trim()));
+    }
+
+    async loadMCQs() {
+        try {
+            const resp = await fetch(`${this.currentCourse.id}/chapters/mcq.csv`);
+            if (!resp.ok) {
+                this.mcqLoaded = true;
+                return;
+            }
+            const text = await resp.text();
+            const rows = this.parseCSV(text);
+            if (rows.length < 2) {
+                this.mcqLoaded = true;
+                return;
+            }
+            const headers = rows[0].map(h => h.toLowerCase());
+            for (let i = 1; i < rows.length; i++) {
+                const row = rows[i];
+                if (row.length === 0) continue;
+                const obj = {};
+                for (let j = 0; j < headers.length; j++) {
+                    obj[headers[j]] = row[j] || '';
+                }
+                const sid = obj['subtopic_id'] || obj['subtopic id'] || '';
+                if (!sid) continue;
+                if (!this.mcqMap.has(sid)) this.mcqMap.set(sid, []);
+                this.mcqMap.get(sid).push(obj);
+            }
+            this.mcqLoaded = true;
+        } catch (error) {
+            console.warn('No mcq.csv found or failed to load:', error);
+            this.mcqLoaded = true;
+        }
+    }
+
+    renderQuizForSubtopic(subtopicEl, mcqs) {
+        if (!subtopicEl || !mcqs || mcqs.length === 0) return;
+        const sid = subtopicEl.dataset.subtopicId;
+        if (!this.activeQuizzes.has(sid)) {
+            this.activeQuizzes.set(sid, {
+                index: 0,
+                userAnswers: Array(mcqs.length).fill(null),
+                checked: Array(mcqs.length).fill(false)
+            });
+        }
+        const state = this.activeQuizzes.get(sid);
+        const container = subtopicEl.querySelector('.practice-quiz-container');
+        container.innerHTML = '';
+
+        const header = document.createElement('div');
+        header.style.display = 'flex';
+        header.style.justifyContent = 'space-between';
+        header.style.alignItems = 'center';
+
+        const title = document.createElement('strong');
+        title.textContent = `Practice Quiz (${mcqs.length} questions)`;
+        header.appendChild(title);
+
+        const navInfo = document.createElement('span');
+        navInfo.className = 'quiz-nav-info';
+        header.appendChild(navInfo);
+        container.appendChild(header);
+
+        const qArea = document.createElement('div');
+        qArea.className = 'quiz-question-area';
+        qArea.style.marginTop = '8px';
+        container.appendChild(qArea);
+
+        const controls = document.createElement('div');
+        controls.style.marginTop = '12px';
+        controls.style.display = 'flex';
+        controls.style.gap = '8px';
+
+        const prevBtn = document.createElement('button');
+        prevBtn.textContent = 'Previous';
+        prevBtn.disabled = true;
+        controls.appendChild(prevBtn);
+
+        const nextBtn = document.createElement('button');
+        nextBtn.textContent = 'Next';
+        controls.appendChild(nextBtn);
+
+        const checkBtn = document.createElement('button');
+        checkBtn.textContent = 'Check';
+        controls.appendChild(checkBtn);
+
+        const viewSolBtn = document.createElement('button');
+        viewSolBtn.textContent = 'View Solution';
+        controls.appendChild(viewSolBtn);
+
+        const retryBtn = document.createElement('button');
+        retryBtn.textContent = 'Retry';
+        retryBtn.style.display = 'none';
+        controls.appendChild(retryBtn);
+
+        container.appendChild(controls);
+
+        function renderQuestion() {
+            const idx = state.index;
+            const row = mcqs[idx];
+            navInfo.textContent = `Question ${idx + 1} / ${mcqs.length}`;
+            qArea.innerHTML = '';
+            const qEl = document.createElement('div');
+            qEl.innerHTML = `<div class="quiz-question"><strong>${row.question}</strong></div>`;
+            qArea.appendChild(qEl);
+
+            const opts = document.createElement('div');
+            opts.className = 'quiz-options';
+            ['option1','option2','option3','option4'].forEach((key, i) => {
+                const id = `q_${sid}_${idx}_${i}`;
+                const wrapper = document.createElement('div');
+                wrapper.style.margin = '6px 0';
+                wrapper.innerHTML = `
+                    <label style="cursor:pointer;">
+                        <input type="radio" name="${sid}_q_${idx}" value="${String.fromCharCode(97+i)}" ${state.userAnswers[idx]===String.fromCharCode(97+i)?'checked':''} /> ${row[key] || ''}
+                    </label>
+                `;
+                opts.appendChild(wrapper);
+            });
+            qArea.appendChild(opts);
+
+            // Show solution block if checked or view requested
+            const sol = document.createElement('div');
+            sol.className = 'quiz-solution';
+            sol.style.marginTop = '8px';
+            sol.style.display = state.checked[idx] ? 'block' : 'none';
+            sol.innerHTML = `<div style="background:#f8f8f8;padding:8px;border-radius:4px;color:#333;">${row.correct_answer_logic || ''}</div>`;
+            qArea.appendChild(sol);
+
+            prevBtn.disabled = idx === 0;
+            nextBtn.disabled = idx === (mcqs.length - 1);
+        }
+
+        // Initial render
+        renderQuestion();
+
+        // Events
+        prevBtn.addEventListener('click', () => {
+            if (state.index > 0) {
+                state.index--;
+                renderQuestion();
+            }
+        });
+        nextBtn.addEventListener('click', () => {
+            if (state.index < mcqs.length - 1) {
+                state.index++;
+                renderQuestion();
+            }
+        });
+        checkBtn.addEventListener('click', () => {
+            const idx = state.index;
+            const selected = container.querySelector(`input[name="${sid}_q_${idx}"]:checked`);
+            if (!selected) return alert('Please select an option to check');
+            state.userAnswers[idx] = selected.value;
+            state.checked[idx] = true;
+            // Mark correctness visually
+            const row = mcqs[idx];
+            const correct = (row.correct_option || '').toLowerCase();
+            const opts = container.querySelectorAll(`input[name="${sid}_q_${idx}"]`);
+            opts.forEach(inp => {
+                const lab = inp.closest('label');
+                if (!lab) return;
+                lab.style.background = 'transparent';
+                if (inp.checked && inp.value === correct) lab.style.background = '#d4f8d4';
+                if (inp.checked && inp.value !== correct) lab.style.background = '#ffd6d6';
+            });/*
+            // show solution text
+            const sol = container.querySelector('.quiz-solution');
+            if (sol) sol.style.display = 'block';*/
+            // if wrong, show retry
+            if (selected.value !== correct) {
+                retryBtn.style.display = 'inline-block';
+            } else {
+                retryBtn.style.display = 'none';
+            }
+        });
+        viewSolBtn.addEventListener('click', () => {
+            const sol = container.querySelector('.quiz-solution');
+            if (sol) sol.style.display = 'block';
+        });
+        retryBtn.addEventListener('click', () => {
+            const idx = state.index;
+            state.userAnswers[idx] = null;
+            state.checked[idx] = false;
+            const opts = container.querySelectorAll(`input[name="${sid}_q_${idx}"]`);
+            opts.forEach(inp => {
+                inp.checked = false;
+                const lab = inp.closest('label');
+                if (lab) lab.style.background = 'transparent';
+            });
+            const sol = container.querySelector('.quiz-solution');
+            if (sol) sol.style.display = 'none';
+            retryBtn.style.display = 'none';
+        });
     }
     
     escapeHtml(text) {

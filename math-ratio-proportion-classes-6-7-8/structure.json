@@ -7,34 +7,159 @@
       "order": 1,
       "topics": [
         {
-          "id": "class6-ratio-basics",
-          "title": "Class 6: Ratio Basics - The Fair Share Detectives! \ud83d\udd75\ufe0f\u200d\u2640\ufe0f\ud83c\udf55",
+          "id": "class6-ratio-definition",
+          "title": "What is a Ratio? The Comparison Language! \ud83d\udde3\ufe0f",
           "order": 1
         },
         {
-          "id": "class6-proportion-unitary",
-          "title": "Class 6: Proportion & Unitary Method - The Equal Relationship Masters! \u2696\ufe0f\ud83d\udd0d",
+          "id": "class6-ratio-notation",
+          "title": "Three Ways to Write Ratios",
           "order": 2
         },
         {
-          "id": "class7-percentage-foundation",
-          "title": "Class 7: Percentage Foundation - The Out of 100 Super System! \ud83d\udcaf\ud83c\udfaf",
+          "id": "class6-equivalent-ratios",
+          "title": "Equivalent Ratios: The Same Meaning, Different Looks! \ud83d\udc6f",
           "order": 3
         },
         {
-          "id": "class7-profit-loss-simple-interest",
-          "title": "Class 7: Profit, Loss & Simple Interest - The Business & Banking Wizards! \ud83d\udcbc\ud83c\udfe6",
+          "id": "class6-simplifying-ratios",
+          "title": "Simplifying Ratios: Making Them Friendlier! \ud83e\udd17",
           "order": 4
         },
         {
-          "id": "class8-direct-inverse-proportion",
-          "title": "Class 8: Direct & Inverse Proportion - The Relationship Scientists! \ud83d\udd2c\ud83d\udcca",
+          "id": "class6-ratio-games-practice",
+          "title": "Ratio Games Bonanza! \ud83c\udfaa",
           "order": 5
         },
         {
-          "id": "class8-compound-interest-comparing",
-          "title": "Class 8: Compound Interest & Comparing Quantities - The Advanced Money Masters! \ud83d\udcb0\ud83c\udf93",
+          "id": "class6-hands-on-activities",
+          "title": "Creative Ratio Activities \ud83c\udfa8",
           "order": 6
+        },
+        {
+          "id": "class6-proportion-definition",
+          "title": "Proportion: When Ratios are Equal Twins! \ud83d\udc6f",
+          "order": 7
+        },
+        {
+          "id": "class6-checking-proportion",
+          "title": "Checking for Proportion: The Cross-Multiplication Test! \u2716\ufe0f",
+          "order": 8
+        },
+        {
+          "id": "class6-types-proportion",
+          "title": "Types of Proportion",
+          "order": 9
+        },
+        {
+          "id": "class6-unitary-method",
+          "title": "Unitary Method: The Power of ONE! 1\ufe0f\u20e3",
+          "order": 10
+        },
+        {
+          "id": "class6-proportion-unitary-games",
+          "title": "Proportion & Unitary Games Extravaganza! \ud83c\udfa1",
+          "order": 11
+        },
+        {
+          "id": "class6-proportion-activities",
+          "title": "Creative Proportion Activities \ud83c\udfa8",
+          "order": 12
+        },
+        {
+          "id": "class7-percentage-definition",
+          "title": "Percentage: The Universal Comparison Language! \ud83c\udf0d",
+          "order": 13
+        },
+        {
+          "id": "class7-percentage-conversions",
+          "title": "The Percentage Trio: Three Best Friends! \ud83d\udc6b\ud83d\udc6b\ud83d\udc6b",
+          "order": 14
+        },
+        {
+          "id": "class7-percentage-calculations",
+          "title": "Finding Percentage of a Quantity",
+          "order": 15
+        },
+        {
+          "id": "class7-percentage-games",
+          "title": "Percentage Games Championship! \ud83c\udfc6",
+          "order": 16
+        },
+        {
+          "id": "class7-percentage-applications",
+          "title": "Real-World Percentage Applications",
+          "order": 17
+        },
+        {
+          "id": "class7-profit-loss-basics",
+          "title": "Profit & Loss: The Business Math Magic! \ud83c\udfa9",
+          "order": 18
+        },
+        {
+          "id": "class7-percentage-profit-loss",
+          "title": "Percentage Profit/Loss: The Real Success Measure!",
+          "order": 19
+        },
+        {
+          "id": "class7-simple-interest-basics",
+          "title": "Simple Interest: The Time-Based Money! \u23f0\ud83d\udcb5",
+          "order": 20
+        },
+        {
+          "id": "class7-profit-loss-interest-games",
+          "title": "Business & Banking Games Extravaganza! \ud83c\udfaa",
+          "order": 21
+        },
+        {
+          "id": "class7-business-simulation-activities",
+          "title": "Business Simulation Activities",
+          "order": 22
+        },
+        {
+          "id": "class8-direct-proportion",
+          "title": "Direct Proportion: The \"Together\" Relationship! \ud83d\udc6b",
+          "order": 23
+        },
+        {
+          "id": "class8-inverse-proportion",
+          "title": "Inverse Proportion: The \"Opposite\" Relationship! \u2194\ufe0f",
+          "order": 24
+        },
+        {
+          "id": "class8-real-world-proportions",
+          "title": "Real-World Proportion Patterns",
+          "order": 25
+        },
+        {
+          "id": "class8-proportion-problems-games",
+          "title": "Proportion Problem-Solving Games",
+          "order": 26
+        },
+        {
+          "id": "class8-compound-interest-basics",
+          "title": "Compound Interest: The 8th Wonder of the World! \u2728",
+          "order": 27
+        },
+        {
+          "id": "class8-compound-vs-simple-interest",
+          "title": "Compound vs Simple Interest Showdown! \ud83e\udd4a",
+          "order": 28
+        },
+        {
+          "id": "class8-discount-tax-markup",
+          "title": "Comparing Quantities: Discount, Tax, Markup! \ud83c\udff7\ufe0f",
+          "order": 29
+        },
+        {
+          "id": "class8-advanced-money-games",
+          "title": "Advanced Money Math Games! \ud83d\udcb0\ud83c\udfae",
+          "order": 30
+        },
+        {
+          "id": "class8-financial-literacy-applications",
+          "title": "Financial Literacy Applications",
+          "order": 31
         }
       ]
     }
