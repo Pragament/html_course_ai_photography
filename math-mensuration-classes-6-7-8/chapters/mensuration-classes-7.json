@@ -1,0 +1,48 @@
+{
+  "id": "mensuration-classes-7",
+  "title": "Mensuration Explorer: Class 7 - Deep Dive into Concepts! \ud83c\udf0a\ud83d\udcca",
+  "description": "Dive deeper into mensuration! Master intermediate concepts and explore practical applications. Designed for Class 7 students building on foundations.",
+  "practice-quiz": true,
+  "subtopics": [
+    {
+      "id": "class7-circle-basics",
+      "title": "Circle Measurements: The Round Revolution! \u2b55",
+      "content": "**Key Circle Terms:**\n- **Radius (r):** Distance from center to edge\n- **Diameter (D):** Distance across through center = 2r\n- **Circumference (C):** Perimeter of circle\n\n**The \u03c0 (Pi) Discovery:**\n\u03c0 = Circumference \u00f7 Diameter \u2248 3.14159...\n**Memory Aid:** \"**P**i = **P**erimeter **P**roportion!\"\n\n**Circumference Formulas:**\n1. Using diameter: C = \u03c0 \u00d7 D\n2. Using radius: C = 2 \u00d7 \u03c0 \u00d7 R\n\n**Visual Proof Activity:** \"The String Experiment\"\n1. Take circular objects (plate, lid, cup)\n2. Wrap string around, measure length = C\n3. Measure diameter D\n4. Calculate C \u00f7 D \u2248 3.14 every time! Magic! \u2728\n\n**Example:** Circle radius 7cm\nD = 14cm\nC = 2 \u00d7 3.14 \u00d7 7 = 43.96cm\nor C = 3.14 \u00d7 14 = 43.96cm"
+    },
+    {
+      "id": "class7-area-of-circle",
+      "title": "Area of Circle: The \u03c0r\u00b2 Magic! \ud83c\udfaa",
+      "content": "**Formula:** A = \u03c0 \u00d7 r\u00b2\n\n**Visual Derivation:**\n```\nCut circle into many thin sectors (pizza slices!)\nArrange alternately to form \u2248 rectangle:\n   ____________________\n  |                    |  Height = r\n  |____________________|\n        Length = \u03c0r\n\nArea = Length \u00d7 Height = \u03c0r \u00d7 r = \u03c0r\u00b2\n```\n\n**Interactive Activity:** \"Circle Area Discovery\"\n1. Draw circle radius 7cm on grid\n2. Count full squares \u2248 ______\n3. Count partial squares \u2248 ______\n4. Total \u2248 ______ cm\u00b2\n5. Calculate: \u03c0 \u00d7 7\u00b2 = 3.14 \u00d7 49 \u2248 154 cm\u00b2\nCompare! \u2713\n\n**Example Problems:**\n1. Circle r=10cm: A = 3.14 \u00d7 100 = 314cm\u00b2\n2. Circle D=14cm: r=7cm, A = 3.14 \u00d7 49 = 153.86cm\u00b2\n\n**Memory Aid:** \"**C**ircle **A**rea = \u03c0 **A**round **R**adius **S**quared!\""
+    },
+    {
+      "id": "class7-parallelogram-area",
+      "title": "Parallelogram Area: The Slant Secret! \u23e9",
+      "content": "**Formula:** A = Base \u00d7 Height\n\n**Crucial Understanding:** Height is PERPENDICULAR distance between parallel sides, NOT slanted side!\n\n**Visual Transformation:**\n```\nParallelogram:    Cut triangle from left, move to right\n      /--------/       becomes Rectangle!   \u25ad\n     /        /       \n    /--------/       \nArea same as rectangle with same base and height!\n```\n\n**Memory Aid:** \"**P**arallelogram = **P**erpendicular height \u00d7 base!\"\n\n**Common Mistake:** Using slanted side as height \u274c\n\n**Example:** Parallelogram base=10cm, height=6cm, slant=8cm\nArea = 10 \u00d7 6 = 60cm\u00b2 (NOT 10\u00d78=80cm\u00b2)\n\n**Interactive Activity:** \"Height Detective\"\nGiven parallelograms, identify:\n- Base\n- Correct perpendicular height\n- Wrong slanted \"height\""
+    },
+    {
+      "id": "class7-triangle-area-advanced",
+      "title": "Triangle Area (Reinforcement): The Half Relationship! \u00bd",
+      "content": "**Formula:** A = \u00bd \u00d7 base \u00d7 height\n\n**Different Approaches:**\n1. **Right Triangle:** Easy! Base and height are legs\n2. **Any Triangle:** Need to identify correct height\n\n**Height Identification Practice:**\nGiven triangle, identify:\n- All possible bases (3)\n- Corresponding heights (3)\n- Verify: \u00bd \u00d7 b\u2081 \u00d7 h\u2081 = \u00bd \u00d7 b\u2082 \u00d7 h\u2082 = \u00bd \u00d7 b\u2083 \u00d7 h\u2083\n\n**Visual Understanding:**\n```\nTake two identical triangles:\n\u25e2 + \u25e3 = \u25ad\nTriangle area = \u00bd \u00d7 corresponding rectangle area\n```\n\n**Special Cases:**\n1. **Equilateral triangle:** Formula using side\n2. **Isosceles triangle:** Special height calculation\n\n**Game: Triangle Area Challenge**\nFind area:\n1. Right triangle: base=6cm, height=8cm\n2. Any triangle: base=10cm, height=5cm\n3. Triangle with different base-height pair"
+    },
+    {
+      "id": "class7-volume-introduction",
+      "title": "Introduction to Volume: The Space Inside! \ud83d\udce6",
+      "content": "**Definition:** Volume = Amount of space occupied by 3D object\n\n**Units:** Cubic units! \n- mm\u00b3 \u2192 cm\u00b3 \u2192 m\u00b3\n- Conversions: 1cm\u00b3 = 1000mm\u00b3 (10\u00d710\u00d710)\n- 1m\u00b3 = 1,000,000cm\u00b3 (100\u00d7100\u00d7100)\n\n**Memory Aid:** \"**V**olume = **V**ertical \u00d7 **V**ertical \u00d7 **V**ertical!\"\n\n**Volume of Cuboid:**\n**Formula:** V = Length \u00d7 Breadth \u00d7 Height\n\n**Visual Understanding:**\n```\nThink of cuboid as layers of unit cubes:\n\u25a2\u25a2\u25a2   3 cubes long\n\u25a2\u25a2\u25a2   2 cubes wide  \u2192 3\u00d72 = 6 cubes per layer\n           \n\u25a2\u25a2\u25a2   4 layers high \u2192 Total = 3\u00d72\u00d74 = 24 cubes\n\u25a2\u25a2\u25a2   Volume = 24 cubic units!\n```\n\n**Volume of Cube:**\n**Formula:** V = Side \u00d7 Side \u00d7 Side = Side\u00b3\n\n**Why \"cubed\"?** Because volume grows cubically!\n- Double side \u2192 Volume becomes 8 times! (2\u00b3=8)\n- Triple side \u2192 Volume becomes 27 times! (3\u00b3=27)"
+    },
+    {
+      "id": "class7-surface-area-basics",
+      "title": "Surface Area Introduction: The Wrapping Paper! \ud83c\udf81",
+      "content": "**Definition:** Total area of all faces of 3D shape\n\n**Units:** Square units (same as area!)\n\n**Surface Area of Cuboid:**\n**Formula:** SA = 2(lb + bh + hl)\n\n**Why this formula?**\nCuboid has:\n- 2 faces: l \u00d7 b (top & bottom)\n- 2 faces: b \u00d7 h (front & back)\n- 2 faces: h \u00d7 l (sides)\nTotal = 2lb + 2bh + 2hl = 2(lb + bh + hl)\n\n**Memory Aid:** \"**S**urface **A**rea = **S**um **A**ll **S**ides!\"\n\n**Surface Area of Cube:**\n**Formula:** SA = 6 \u00d7 Side\u00b2\n\n**Visual:** Unfold cube \u2192 Net with 6 squares!\n\n**Real-World Applications:**\n- Wrapping gifts \ud83c\udf81\n- Painting walls \ud83c\udfa8\n- Packaging material \ud83d\udce6\n- Heat transfer calculations \ud83d\udd25"
+    },
+    {
+      "id": "class7-capacity",
+      "title": "Capacity: The Liquid Volume! \ud83d\udeb0",
+      "content": "**Relationship with Volume:**\n1 cm\u00b3 = 1 milliliter (ml)\n1000 cm\u00b3 = 1 liter (L)\n1 m\u00b3 = 1000 liters\n\n**Key Conversions:**\n- 1 L = 1000 ml\n- 1 m\u00b3 = 1000 L = 1 kiloliter\n- 1 cm\u00b3 = 1 ml\n\n**Memory Aid:** \"**C**ubic **C**entimeter = **C**apacity in **M**illiliters!\"\n\n**Real-World Examples:**\n- Water bottle: 1 L = 1000 ml\n- Swimming pool: m\u00b3 or liters\n- Medicine: ml\n- Fuel tank: liters\n\n**Interactive Activity:** \"Volume by Displacement\"\n1. Fill measuring cup partly with water\n2. Note level\n3. Add object (stone, toy)\n4. Note new level\n5. Difference = Volume of object!\n\n**Example Problem:**\nWater tank: 2m \u00d7 1m \u00d7 1m\nVolume = 2 m\u00b3 = 2000 L\n\n**Think About It:** \ud83e\udd14\n- Why 1cm\u00b3 = 1ml?\n- When to use liters vs cubic meters?\n- How is capacity different from volume?"
+    },
+    {
+      "id": "class7-advanced-games",
+      "title": "Advanced Measurement Games Championship! \ud83c\udfc6",
+      "content": "**Game 1: Circle Calculation Challenge**\nGiven radius 14cm:\n1. Diameter = ______ cm\n2. Circumference = ______ cm (\u03c0\u22483.14)\n3. Area = ______ cm\u00b2\n\n**Solution Path:**\nD = 2\u00d714 = 28cm\nC = 2\u00d73.14\u00d714 = 87.92cm\nA = 3.14\u00d714\u00b2 = 3.14\u00d7196 = 615.44cm\u00b2\n\n**Game 2: Parallelogram Height Detective**\nIdentify correct height:\nParallelogram: Base=10cm, Slant side=8cm\nWhich is height?\n1. 8cm (along slant) \u274c\n2. 6cm (perpendicular distance) \u2705\n3. 10cm (other side) \u274c\nArea = 10\u00d76 = 60cm\u00b2\n\n**Game 3: Volume Layer Counting**\nCuboid: 4 cubes long, 3 cubes wide, 2 cubes high\n1. Cubes per layer = ______\n2. Total cubes = ______\n3. Volume = ______ cubic units\n\n**Game 4: Surface Area Unfolding**\nCube side 5cm:\n1. Area one face = ______ cm\u00b2\n2. Total surface area = ______ cm\u00b2\n3. Draw net showing all 6 faces!"
+    }
+  ]
+}

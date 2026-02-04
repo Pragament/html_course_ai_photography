@@ -1,0 +1,58 @@
+{
+  "id": "ratio-proportion-classes-7",
+  "title": "Ratio-proportion Explorer: Class 7 - Deep Dive into Concepts! \ud83c\udf0a\ud83d\udcca",
+  "practice-quiz": true,
+  "description": "Dive deeper into ratio-proportion! Master intermediate concepts and explore practical applications. Designed for Class 7 students building on foundations.",
+  "subtopics": [
+    {
+      "id": "class7-percentage-definition",
+      "title": "Percentage: The Universal Comparison Language! \ud83c\udf0d",
+      "content": "**Simple Explanation:** Percentage = \"Per cent\" = \"Out of 100\" - it's like having a standard measuring cup of size 100!\n\n**Memory Aid:** \"**P**ercent = **P**arts per **P**erfect 100!\" \ud83c\udfaf\n\n**Deep Dive:** Why 100? Because it's easy!\n- Halves: 50%\n- Quarters: 25%, 75%\n- Tenths: 10%, 20%, 30%...\n- Everyone understands 100% = whole thing!\n\n**Visual Prompt:** \"The Percentage Grid Masterpiece\"\n```\nCreate 10\u00d710 grid (100 squares)\n\u25a6\u25a6\u25a6\u25a6\u25a6\u25a6\u25a6\u25a6\u25a6\u25a6\n\u25a6\u25a6\u25a6\u25a6\u25a6\u25a6\u25a6\u25a6\u25a6\u25a6 (10 rows)\n...\n\nShade 25 squares = 25% = \u00bc\nShade 50 squares = 50% = \u00bd\nShade 75 squares = 75% = \u00be\nVISUAL MAGIC! \u2728\n```\n\n**Real-World Applications:**\n- Test scores and grades \ud83d\udcca\n- Battery charge indicators \ud83d\udd0b\n- Progress bars \ud83d\udcc8\n- Discount advertisements \ud83c\udff7\ufe0f"
+    },
+    {
+      "id": "class7-percentage-conversions",
+      "title": "The Percentage Trio: Three Best Friends! \ud83d\udc6b\ud83d\udc6b\ud83d\udc6b",
+      "content": "## Three Conversion Methods:\n\n**1. Fractions \u2194 Percentage:**\n- Multiply fraction by 100, add % sign\n- Example: 3/4 = 0.75 \u00d7 100 = 75%\n\n**2. Decimals \u2194 Percentage:**\n- Multiply decimal by 100, add % sign\n- Example: 0.6 = 0.6 \u00d7 100 = 60%\n\n**3. Percentage \u2194 Fraction/Decimal:**\n- Divide by 100, remove % sign\n- Example: 45% = 45 \u00f7 100 = 0.45 or 45/100 = 9/20\n\n**Common Percentage Conversions (Memorize These!):**\n- 1/2 = 50% (Half)\n- 1/4 = 25% (Quarter)\n- 3/4 = 75% (Three-quarters)\n- 1/5 = 20%\n- 1/10 = 10%\n- 1/3 \u2248 33.33%\n- 2/3 \u2248 66.67%\n\n**Think About It:** \ud83e\udd14\n- Why is 100% maximum?\n- Can percentage be more than 100%?\n- What does 0% mean?"
+    },
+    {
+      "id": "class7-percentage-calculations",
+      "title": "Finding Percentage of a Quantity",
+      "content": "**Three Methods to Calculate Percentages:**\n\n**Method 1: Using Fractions**\nFind 25% of 80:\n25% = 1/4\n1/4 of 80 = 80 \u00f7 4 = 20 \u2713\n\n**Method 2: Using Decimals**\nFind 25% of 80:\n25% = 0.25\n0.25 \u00d7 80 = 20 \u2713\n\n**Method 3: Using Proportion**\nFind 25% of 80:\n25/100 = x/80\nCross multiply: 100x = 2000 \u2192 x = 20 \u2713\n\n**Mental Math Tricks:**\n- 10% of any number = Move decimal left 1 place\n  Example: 10% of \u20b9250 = \u20b925\n- 5% = Half of 10%\n  Example: 5% of \u20b9250 = \u20b912.50\n- 1% = Move decimal left 2 places\n  Example: 1% of \u20b9250 = \u20b92.50\n\n**Interactive Activity:** \"Percentage of the Day\"\nDaily challenge: Find percentages of:\n- 10% of your class strength\n- 25% of pages in your notebook\n- 50% of hours in a day\n- 75% of \u20b91000"
+    },
+    {
+      "id": "class7-percentage-games",
+      "title": "Percentage Games Championship! \ud83c\udfc6",
+      "content": "**Game 1: Percentage Conversion Relay**\nConvert these in 60 seconds:\n1. 3/5 = ______%\n2. 0.85 = ______%\n3. 40% = ______ (fraction)\n4. 125% = ______ (decimal)\n5. 2/3 \u2248 ______% (rounded)\n\n**Game 2: Mental Math Percentage Race**\nCalculate without calculator:\n1. 10% of \u20b9450 = ______\n2. 25% of 80 kg = ______\n3. 50% of 120 students = ______\n4. 75% of \u20b9200 = ______\n5. 1% of \u20b95000 = ______\n\n**Game 3: The 100-Grid Art Challenge**\nOn 10\u00d710 grid:\n1. Color 30% blue (30 squares)\n2. Color 25% of remaining red\n3. Color 40% of new remaining green\n4. Calculate: What % is yellow now?\n\n**Solution Path:**\nTotal = 100 squares\nStep 1: 30 blue \u2192 70 left\nStep 2: 25% of 70 = 17.5 \u2248 18 red \u2192 52 left\nStep 3: 40% of 52 = 20.8 \u2248 21 green \u2192 31 left\nStep 4: Yellow = 31/100 = 31% \u2713"
+    },
+    {
+      "id": "class7-percentage-applications",
+      "title": "Real-World Percentage Applications",
+      "content": "**Game 4: Real-World Percentage Hunt**\nDocument with photos:\n1. Phone battery percentage \ud83d\udcf1\n2. Discount tag in store \ud83c\udff7\ufe0f\n3. Poll results in newspaper \ud83d\udcf0\n4. Recipe saying \"50% cocoa\" \ud83c\udf6b\n\n**Game 5: Percentage Puzzle Pieces**\nComplete the puzzle:\nIf 20% = 1/5, then:\n40% = ______/5\n60% = ______/5\n80% = ______/5\n100% = ______/5\nPattern? Multiply percentage by 5/100!\n\n**Talk to a Friend Prompt:**\n\"Create a 'life report card' with percentages: Happiness 85%, Learning 70%, Fitness 60%, Creativity 90%. Calculate average! Discuss if percentages over 100 make sense for effort!\" \ud83d\udccb\n\n**Real-Life Math Puzzle:**\nSchool election results:\nTotal votes: 800\nCandidate A: 45%\nCandidate B: 30%\nCandidate C: 25%\n1. How many votes each?\nA: 45% of 800 = 0.45\u00d7800 = 360 votes\nB: 30% of 800 = 240 votes\nC: 25% of 800 = 200 votes\nCheck: 360+240+200=800 \u2713\n\n2. If 50 new votes added, all for A:\nNew total = 850, A=410\nNew percentage = 410/850\u00d7100 = 48.24%"
+    },
+    {
+      "id": "class7-profit-loss-basics",
+      "title": "Profit & Loss: The Business Math Magic! \ud83c\udfa9",
+      "content": "**Simple Explanation:** Business is about buying low, selling high! Profit = Happy \ud83d\ude0a, Loss = Sad \ud83d\ude22\n\n**Memory Aid:** \"**P**rofit = **P**ositive cash, **L**oss = **L**ess cash!\" \ud83d\udcb0\n\n## Key Players in Business Game:\n\n1. **Cost Price (CP):** What YOU pay to buy/make product\n   - Think: Your investment\n   \n2. **Selling Price (SP):** What CUSTOMER pays you\n   - Think: Your income\n   \n3. **Profit (Gain):** When SP > CP\n   Formula: Profit = SP - CP\n   \n4. **Loss:** When CP > SP\n   Formula: Loss = CP - SP\n\n**Visual Prompt:** \"The Business Balance Scale\" \u2696\ufe0f\n```\nLeft Pan (CP): What you spent\nRight Pan (SP): What you earned\n\nIf Right heavier \u2192 PROFIT! \ud83d\udcc8\nIf Left heavier \u2192 LOSS! \ud83d\udcc9\nIf balanced \u2192 No profit, no loss\n```"
+    },
+    {
+      "id": "class7-percentage-profit-loss",
+      "title": "Percentage Profit/Loss: The Real Success Measure!",
+      "content": "**Why Percentage?** \u20b9100 profit on \u20b91000 item is different from \u20b9100 profit on \u20b9100 item!\n\n**Formulas:**\n- Profit % = (Profit / CP) \u00d7 100\n- Loss % = (Loss / CP) \u00d7 100\n\n**Example Deep Dive:**\nYou buy toy for \u20b9200 (CP)\nSell for \u20b9250 (SP)\nProfit = \u20b950\nProfit % = (50/200)\u00d7100 = 25%\n\nBUT if bought for \u20b9400, sold for \u20b9450:\nSame \u20b950 profit, but Profit % = (50/400)\u00d7100 = 12.5%\nSee difference? Percentage tells true story!\n\n**Think About It:** \ud83e\udd14\n- Can profit % be more than 100%?\n- What if selling price equals cost price?\n- Why use percentage instead of just rupees?"
+    },
+    {
+      "id": "class7-simple-interest-basics",
+      "title": "Simple Interest: The Time-Based Money! \u23f0\ud83d\udcb5",
+      "content": "**Simple Explanation:** Interest = Rent money pays for being used!\n- Earn interest when you LEND (save in bank) \ud83d\udcc8\n- Pay interest when you BORROW (loan from bank) \ud83d\udcc9\n\n**The Simple Interest Formula:**\nSI = (P \u00d7 R \u00d7 T) / 100\n\nWhere:\n- **P = Principal:** Starting amount of money\n- **R = Rate %:** Interest rate per year\n- **T = Time:** Number of years (convert months to years!)\n\n**Memory Aid:** \"**P**lease **R**emember **T**o divide by 100!\" \ud83d\ude4f\n\n**Visual Prompt:** \"The Interest Growth Ladder\"\n```\nYear 0: \u20b91000 (P) \ud83c\udfaf\nYear 1: \u20b91000 + \u20b980 (8% of 1000) = \u20b91080\nYear 2: \u20b91080 + \u20b980 (same \u20b980!) = \u20b91160\nYear 3: \u20b91160 + \u20b980 = \u20b91240\nStraight line growth! Each year adds SAME interest!\n```\n\n**Time Conversion Guide:**\n- Months to Years: Divide by 12\n  Example: 6 months = 6/12 = 0.5 years\n- Days to Years: Divide by 365 (or 360 for banking)\n  Example: 90 days = 90/365 \u2248 0.2466 years"
+    },
+    {
+      "id": "class7-profit-loss-interest-games",
+      "title": "Business & Banking Games Extravaganza! \ud83c\udfaa",
+      "content": "**Game 1: Profit-Loss Detective Agency** \ud83d\udd0d\nSolve business mysteries:\n\nCase 1: Bought for \u20b9500, sold for \u20b9650\n- Profit = ______\n- Profit % = ______%\n\nCase 2: Bought for \u20b9800, sold for \u20b9720\n- Loss = ______\n- Loss % = ______%\n\nCase 3: CP = \u20b91200, Profit % = 25%\n- Profit = ______\n- SP = ______\n\nCase 4: SP = \u20b9900, Loss % = 10%\n- Loss = ______\n- CP = ______ (Tricky!)\n\n**Solution for Case 4:**\nIf Loss = 10% of CP, then SP = 90% of CP\nSo CP = SP \u00f7 0.9 = 900 \u00f7 0.9 = \u20b91000\nLoss = \u20b91000 - \u20b9900 = \u20b9100 \u2713"
+    },
+    {
+      "id": "class7-business-simulation-activities",
+      "title": "Business Simulation Activities",
+      "content": "**Game 2: Simple Interest Calculator Race** \u23f1\ufe0f\nCalculate:\n1. P=\u20b92000, R=5%, T=3 years \u2192 SI=______, Amount=______\n2. P=\u20b95000, R=8%, T=6 months \u2192 SI=______\n3. P=\u20b93000, R=12%, T=90 days \u2192 SI=______ (Use 1 year=365 days)\n\n**Game 3: The Business Simulation Game**\nStart with \u20b91000 capital\nBuy items at wholesale, sell at retail\nTrack for 4 \"months\" (weeks):\n- Monthly expenses: \u20b9100\n- Target: Maximum profit %\n- Winner: Highest profit %!\n\n**Talk to a Friend Prompt:**\n\"You're opening a lemonade stand! Costs: Lemons \u20b950, Sugar \u20b930, Cups \u20b920. You make 20 glasses, sell at \u20b910 each. Calculate profit, profit %. Suggest price change for 30% profit margin!\" \ud83c\udf4b\n\n**Real-Life Math Puzzle:**\nHousehold budget challenge:\nMonthly income: \u20b950,000\nExpenses: 40% house, 25% food, 15% transport, 10% education, 10% savings\n1. Calculate each category amount\n2. Savings earn 4% interest yearly\n3. Yearly interest on savings?"
+    }
+  ]
+}

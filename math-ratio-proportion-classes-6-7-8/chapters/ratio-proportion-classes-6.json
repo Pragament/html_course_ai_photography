@@ -1,0 +1,68 @@
+{
+  "id": "ratio-proportion-classes-6",
+  "title": "Ratio-proportion Explorer: Class 6 - Begin Your Journey! \ud83d\udcda\u2728",
+  "description": "Begin your ratio-proportion adventure! Discover fundamental concepts through fun activities and real-world examples. Perfect for Class 6 students starting their journey.",
+  "practice-quiz": true,
+  "subtopics": [
+    {
+      "id": "class6-ratio-definition",
+      "title": "What is a Ratio? The Comparison Language! \ud83d\udde3\ufe0f",
+      "content": "**Simple Explanation:** A ratio is a special way to COMPARE two quantities - showing how much of one thing there is compared to another!\n\n**Memory Aid:** \"**R**atio **R**eveals **R**elative amounts!\" \ud83d\udcca\n\n**Deep Dive Story:** Imagine you're organizing a class picnic:\n- You have 12 apples \ud83c\udf4e and 8 oranges \ud83c\udf4a\n- Ratio of apples to oranges = 12:8\n- But let's make it simpler! Divide both by 4\n- Simplified ratio = 3:2\n- Meaning: For every 3 apples, there are 2 oranges!\n\n**Real-World Connection:**\n- Recipes: Flour:Sugar ratio in cakes \ud83c\udf82\n- Maps: 1 cm represents 5 km \ud83d\uddfa\ufe0f\n- Sports: Win:Loss ratio of teams \ud83c\udfcf\n- Art: Color mixing ratios \ud83c\udfa8"
+    },
+    {
+      "id": "class6-ratio-notation",
+      "title": "Three Ways to Write Ratios",
+      "content": "## Three Notation Styles:\n1. **Colon Form:** 3:2 (most common)\n2. **Word Form:** \"3 to 2\"\n3. **Fraction Form:** 3/2\n\n**Visual Prompt:** \"The Ratio Rainbow Bridge\" \ud83c\udf08\n```\nApples: \ud83c\udf4e\ud83c\udf4e\ud83c\udf4e\ud83c\udf4e\ud83c\udf4e\ud83c\udf4e (6)\nOranges: \ud83c\udf4a\ud83c\udf4a\ud83c\udf4a\ud83c\udf4a (4)\nDraw rainbow connecting:\n6 apples \u2190\ud83c\udf08\u2192 4 oranges\nSimplified: 3 apples \u2190\ud83c\udf08\u2192 2 oranges\nEach color connects equal value!\n```\n\n**Think About It:** \ud83e\udd14\n- Which notation do you find easiest?\n- When might you use word form instead of colon form?\n- How is the fraction form different from regular fractions?"
+    },
+    {
+      "id": "class6-equivalent-ratios",
+      "title": "Equivalent Ratios: The Same Meaning, Different Looks! \ud83d\udc6f",
+      "content": "**Simple Explanation:** Different ratios that mean the SAME thing - like different outfits on the same person!\n\n**Example:** 2:4, 1:2, 3:6, 50:100\nALL mean \"for every 1 of the first, there are 2 of the second\"\n\n**Interactive Activity:** \"Equivalent Ratio Treasure Hunt\"\nFind all equivalent ratios to 2:3:\n- Multiply both by 2: 4:6\n- Multiply by 3: 6:9\n- Multiply by 10: 20:30\n\n**Pattern Discovery:**\nThe pattern is: 2n : 3n (where n is any number!)\n\n**Quick Check:**\nAre these ratios equivalent to 2:3?\n- 4:6 \u2713 (multiplied by 2)\n- 8:12 \u2713 (multiplied by 4)\n- 1:1.5 \u2713 (divided by 2)\n- 10:20 \u2717 (this would be 1:2)"
+    },
+    {
+      "id": "class6-simplifying-ratios",
+      "title": "Simplifying Ratios: Making Them Friendlier! \ud83e\udd17",
+      "content": "**Step-by-Step Method:**\n1. Write the ratio (e.g., 18:24)\n2. Find the HCF of both numbers (HCF of 18 & 24 = 6)\n3. Divide both by HCF: 18\u00f76 : 24\u00f76 = 3:4\n4. Check: Can it be simplified more? No!\n\n**Common Mistakes Alert:** \u26a0\ufe0f\n1. **Unit Mix-Up:** Don't mix units! \n   Example: 2 hours : 30 minutes \u2192 Convert to same unit first! (120 min : 30 min = 4:1)\n2. **Order Matters:** Always write in same order asked!\n3. **Forgetting to Check:** Always check if you can simplify further!\n\n**Practice Examples:**\n1. 24:36 = ? (HCF = 12) \u2192 2:3\n2. 45:60 = ? (HCF = 15) \u2192 3:4\n3. 14:21 = ? (HCF = 7) \u2192 2:3"
+    },
+    {
+      "id": "class6-ratio-games-practice",
+      "title": "Ratio Games Bonanza! \ud83c\udfaa",
+      "content": "**Game 1: Ratio Simplification Championship**\nRace to simplify:\n1. 24:36 = ______:______\n2. 45:60 = ______:______\n3. 18:42 = ______:______\n4. 56:84 = ______:______\n\n**Game 2: Unit Conversion Challenge**\nConvert to same unit, then simplify:\n1. 2 hours : 45 minutes = ______ min : ______ min = ______:______\n2. 3 km : 500 m = ______ m : ______ m = ______:______\n3. \u20b95 : 200 paise = ______ paise : ______ paise = ______:______\n\n**Game 3: Equivalent Ratio Generator**\nStarting ratio: 3:5\nGenerate 5 equivalent ratios:\n1. ______:______ (\u00d72)\n2. ______:______ (\u00d73)\n3. ______:______ (\u00d710)\n4. ______:______ (\u00d70.5)\n5. ______:______ (\u00d71/3)\n\n**Game 4: Real-Life Ratio Scavenger Hunt**\nFind and photograph:\n1. A recipe with ingredient ratio \ud83d\udcf8\n2. A map with scale ratio \ud83d\uddfa\ufe0f\n3. Sports score showing ratio \u26bd\n4. Classroom boy:girl ratio \ud83d\udc66\ud83d\udc67"
+    },
+    {
+      "id": "class6-hands-on-activities",
+      "title": "Creative Ratio Activities \ud83c\udfa8",
+      "content": "**Talk to a Friend Prompt:**\n\"Create a 'Perfect Smoothie' recipe using ratios. Your friend must guess ingredients from your ratio! Example: Banana:Berry:Yogurt = 2:3:1\" \ud83e\udd64\n\n**Drawing Challenge:**\nCreate \"Ratio Monsters\":\n- Monster A: Eyes:Legs = 2:8\n- Monster B: Spots:Stripes = 3:2\n- Monster C: Horns:Tails = 1:4\nDraw them following ratios exactly!\n\n**Real-Life Math Puzzle:**\nParty planning dilemma:\nYou have 20 cupcakes and 15 juice boxes.\nRatio of cupcakes:juice = 20:15 = 4:3\nIf 5 more friends come, maintaining 4:3 ratio:\nCupcakes needed for 25 juice boxes?\nSet up: 4/3 = x/25 \u2192 3x = 100 \u2192 x \u2248 33.33\nNeed about 34 cupcakes!\n\n**Hands-On Experiment:** \"The Perfect Lemonade Lab\"\nTest different lemon:sugar:water ratios:\n1. 1:2:10 (too sweet?)\n2. 2:1:10 (too sour?)\n3. 1:1:8 (just right?)\nBlind taste test! Rate each! \ud83c\udf4b\n\n**Memory Palace Technique:**\nImagine a \"Ratio Restaurant\":\n- Entrance sign: \"Comparing Quantities\"\n- Table 1: Colon form (3:2)\n- Table 2: Word form (\"3 to 2\")\n- Table 3: Fraction form (3/2)\n- Kitchen: Simplifying station\n- Menu: Real-world examples"
+    },
+    {
+      "id": "class6-proportion-definition",
+      "title": "Proportion: When Ratios are Equal Twins! \ud83d\udc6f",
+      "content": "**Simple Explanation:** Proportion tells us two ratios are EQUAL - they have the same relationship value!\n\n**Memory Aid:** \"**P**roportion = **P**aired ratios that are **P**erfectly equal!\" \u2705\n\n**Deep Dive:** Consider two paint mixtures:\nMixture A: 2 cups red + 3 cups white = pink\nMixture B: 4 cups red + 6 cups white = same pink!\nWhy? Because 2:3 = 4:6 (both simplify to 2:3)\nThey're proportional! \ud83c\udfa8\n\n**Visual Prompt:** \"The Proportion Balance Scale\" \u2696\ufe0f\n```\nLeft Pan:  3 apples : 4 oranges\nRight Pan: 9 apples : 12 oranges\n\nWeigh relationship, not weight!\n3/4 = 0.75  and  9/12 = 0.75\nBalanced! Proportional! \u2705\n```\n\n**Real-World Applications:**\n- Map scales\n- Recipe scaling\n- Blueprint scaling"
+    },
+    {
+      "id": "class6-checking-proportion",
+      "title": "Checking for Proportion: The Cross-Multiplication Test! \u2716\ufe0f",
+      "content": "**Method:** For a:b = c:d\nIf a \u00d7 d = b \u00d7 c, they're proportional!\n\n**Example:** Is 3:4 = 9:12 proportional?\n3 \u00d7 12 = 36\n4 \u00d7 9 = 36\nEqual! So YES proportional! \u2713\n\n**Step-by-Step Guide:**\n1. Write ratios as fractions: 3/4 and 9/12\n2. Cross multiply: 3\u00d712 and 4\u00d79\n3. Compare products: 36 = 36\n4. Conclusion: Proportional!\n\n**Practice Problems:**\n1. Check if 2:5 = 6:15\n2. Check if 4:7 = 12:21\n3. Check if 5:8 = 15:25\n\n**Why it works:** Cross-multiplication checks if the two fractions are equivalent!"
+    },
+    {
+      "id": "class6-types-proportion",
+      "title": "Types of Proportion",
+      "content": "## Three Main Types:\n\n1. **Direct Proportion (Preview):** As one quantity increases, the other increases proportionally\n   - Example: More workers, more work done\n   - Formula: y = kx (where k is constant)\n\n2. **Inverse Proportion (Preview):** As one quantity increases, the other decreases proportionally\n   - Example: More workers, less time needed for same work\n   - Formula: xy = k (where k is constant)\n\n3. **Continued Proportion:** A chain of equal ratios\n   - Example: a:b = b:c = c:d\n   - Means: a/b = b/c = c/d\n\n**Note for Class 6:** We focus on understanding proportion basics. Direct and inverse proportion will be explored in detail in Class 8!\n\n**Think About It:** \ud83e\udd14\n- Can you think of real examples of each type?\n- Why do we need different types of proportion?\n- How can you recognize each type?"
+    },
+    {
+      "id": "class6-unitary-method",
+      "title": "Unitary Method: The Power of ONE! 1\ufe0f\u20e3",
+      "content": "**Simple Explanation:** Find value of ONE unit first, then use it to find any number!\n\n**Memory Aid:** \"**U**nitary starts with **U**nit one, then you're done!\" \ud83c\udfaf\n\n**Step-by-Step Process:**\n1. Identify what's given\n2. Find value of 1 unit (divide)\n3. Multiply to find required units\n\n**Example:** 5 pencils cost \u20b925\n1. Given: 5 pencils \u2192 \u20b925\n2. Find 1 pencil: \u20b925 \u00f7 5 = \u20b95\n3. Find 8 pencils: \u20b95 \u00d7 8 = \u20b940\n\n**Why it works:** It breaks complex problems into simple steps!\n\n**Interactive Activity:** \"Unitary Method Supermarket\" \ud83d\uded2\nSet up store with price tags:\n- 3 chocolates: \u20b945 \u2192 1 chocolate = \u20b915\n- 4 notebooks: \u20b980 \u2192 1 notebook = \u20b920\n- 6 pens: \u20b954 \u2192 1 pen = \u20b99\n\n**Think About It:** \ud83e\udd14\n- Why find 1 unit first?\n- When might this method be especially useful?\n- Can we work backwards using this method?"
+    },
+    {
+      "id": "class6-proportion-unitary-games",
+      "title": "Proportion & Unitary Games Extravaganza! \ud83c\udfa1",
+      "content": "**Game 1: Proportion Detective Agency** \ud83d\udd0d\nWhich pairs are proportional? Use cross-multiplication!\n1. 2:3 and 4:6 \u2192 2\u00d76=12, 3\u00d74=12 \u2713 PROPORTIONAL!\n2. 5:8 and 15:24 \u2192 ______\n3. 3:7 and 9:28 \u2192 ______\n4. 4:5 and 16:20 \u2192 ______\n\n**Game 2: Missing Value Mysteries**\nFind missing numbers in proportions:\n1. 3:5 = 12:x \u2192 x = ______\n2. 7:8 = y:24 \u2192 y = ______\n3. a:9 = 4:12 \u2192 a = ______\n\n**Method:** Cross multiply!\nFor 3:5 = 12:x\n3x = 5\u00d712 \u2192 3x = 60 \u2192 x = 20 \u2713\n\n**Game 3: Unitary Method Speed Challenge** \u23f1\ufe0f\nSolve fastest:\n1. 4 books cost \u20b9200 \u2192 7 books cost? ______\n2. 5 kg apples cost \u20b9150 \u2192 3 kg cost? ______\n3. 8 m cloth costs \u20b9400 \u2192 1 m costs? ______ \u2192 5 m costs? ______\n\n**Game 4: Real-World Proportion Hunt**\nFind photographic evidence of:\n1. Map with scale proportion \ud83d\uddfa\ufe0f\n2. Recipe showing ingredient proportion \ud83d\udcdd\n3. Building blueprint with scale \ud83c\udfd7\ufe0f\n4. Model with real object proportion \ud83d\ude97"
+    },
+    {
+      "id": "class6-proportion-activities",
+      "title": "Creative Proportion Activities \ud83c\udfa8",
+      "content": "**Game 5: The Proportion Art Project**\nCreate artwork maintaining proportions:\n- Face drawing: Eyes:Nose:Mouth = 2:1:1\n- House drawing: Width:Height = 3:2\n- Tree drawing: Trunk:Canopy = 1:3\n\n**Talk to a Friend Prompt:**\n\"You're a chef scaling a recipe! Original: 2 cups flour, 3 eggs for 4 people. Need for 10 people. Use proportion method AND unitary method. Which is easier?\" \ud83d\udc68\u200d\ud83c\udf73\n\n**Drawing Challenge:**\nCreate \"Proportion City\":\n- Buildings in proportion 1:2:3\n- Cars:Wheels = 1:4 always\n- Trees:Leaves showing proportion\n- People:Height different but proportional!\n\n**Real-Life Math Puzzle:**\nGardening problem:\nSeed packet: 50 seeds cover 2m\u00b2\nYour garden: 15m\u00b2\nHow many packets needed if each has 50 seeds?\n\n**Method 1 (Proportion):**\n50 seeds : 2m\u00b2 = x seeds : 15m\u00b2\n50/2 = x/15 \u2192 x = 375 seeds\nPackets = 375 \u00f7 50 = 7.5 \u2192 8 packets\n\n**Method 2 (Unitary):**\n1m\u00b2 needs 50\u00f72 = 25 seeds\n15m\u00b2 needs 25\u00d715 = 375 seeds\nSame answer! \u2705\n\n**Hands-On Experiment:** \"The Perfect Paint Mix Lab\"\nGoal: Match a paint color exactly!\nGiven: 2 parts blue + 3 parts yellow = green\nChallenge: Make larger batch keeping proportion!\nTry: 4 blue + 6 yellow (2:3)\nTry: 1 blue + 1.5 yellow (still 2:3!)\nTest if colors match! \ud83c\udfa8"
+    }
+  ]
+}

@@ -2,39 +2,238 @@
   "courseId": "math-geometry-classes-6-7-8",
   "chapters": [
     {
-      "id": "geometry-classes-6-7-8",
-      "title": "Geometry Galaxy: The Complete Shape & Space Adventure! \ud83c\udf0c\ud83d\udcd0\u2728",
+      "id": "geometry-classes-6",
+      "title": "Geometry Explorer: Class 6 - Begin Your Journey! \ud83d\udcda\u2728",
       "order": 1,
       "topics": [
         {
-          "id": "class6-geometry-basics",
-          "title": "Class 6: Geometry Basics - The Building Blocks of Shape World! \ud83e\uddf1\ud83c\udf1f",
+          "id": "class6-geometry-fundamentals",
+          "title": "The Fundamental Five: Geometry's Alphabet! \ud83d\udd24",
           "order": 1
         },
         {
-          "id": "class7-lines-angles-congruence",
-          "title": "Class 7: Lines, Angles & Congruence - The Relationship Detectives! \ud83d\udd0d\ud83d\udcd0",
+          "id": "class6-angle-basics",
+          "title": "Angle: The Turn Between Rays! \u21ba",
           "order": 2
         },
         {
-          "id": "class7-constructions-properties",
-          "title": "Class 7: Constructions & Triangle Properties - The Geometry Architects! \ud83c\udfd7\ufe0f\ud83d\udcd0",
+          "id": "class6-types-of-angles",
+          "title": "Types of Angles: The Angle Zoo! \ud83e\udd81\ud83d\udc2f\ud83d\udc18",
           "order": 3
         },
         {
-          "id": "class8-quadrilaterals-properties",
-          "title": "Class 8: Understanding Quadrilaterals - The Four-Sided Universe! \ud83d\udd32\ud83c\udf0c",
+          "id": "class6-triangle-classification-sides",
+          "title": "Triangles: The Three-Sided Wonders! \ud83d\udd3a",
           "order": 4
         },
         {
-          "id": "class8-practical-geometry-constructions",
-          "title": "Class 8: Practical Geometry - The Construction Architects! \ud83c\udfd7\ufe0f\ud83d\udcd0",
+          "id": "class6-triangle-classification-angles",
+          "title": "Triangles by Angles: Different Personalities!",
           "order": 5
         },
         {
-          "id": "class8-mensuration-visualizing-solids",
-          "title": "Class 8: Mensuration & 3D Shapes - The Space & Measurement Masters! \ud83d\udce6\ud83d\udccf",
+          "id": "class6-quadrilateral-family",
+          "title": "Quadrilaterals: The Four-Sided Family! \ud83d\udd32",
           "order": 6
+        },
+        {
+          "id": "class6-special-quadrilaterals",
+          "title": "Special Quadrilaterals: Trapezium & Kite",
+          "order": 7
+        },
+        {
+          "id": "class6-circle-vocabulary",
+          "title": "Circles: The Perfect Round! \u2b55",
+          "order": 8
+        },
+        {
+          "id": "class6-symmetry-basics",
+          "title": "Symmetry: The Mirror Magic! \ud83e\ude9e",
+          "order": 9
+        },
+        {
+          "id": "class6-geometry-games",
+          "title": "Geometry Basics Games Extravaganza! \ud83c\udfaa",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "geometry-classes-7",
+      "title": "Geometry Explorer: Class 7 - Deep Dive into Concepts! \ud83c\udf0a\ud83d\udcca",
+      "order": 2,
+      "topics": [
+        {
+          "id": "class7-parallel-perpendicular",
+          "title": "Lines & Angles Relationships: Intersection Stories! \u2716\ufe0f",
+          "order": 1
+        },
+        {
+          "id": "class7-angle-pairs",
+          "title": "Angle Pairs Formed by Transversal",
+          "order": 2
+        },
+        {
+          "id": "class7-triangle-congruence",
+          "title": "Congruence of Triangles: The Identical Twins! \ud83d\udc6f",
+          "order": 3
+        },
+        {
+          "id": "class7-triangle-properties",
+          "title": "Properties of Triangles: The Internal Secrets! \ud83e\udd2b",
+          "order": 4
+        },
+        {
+          "id": "class7-basic-constructions",
+          "title": "Basic Constructions: Compass & Ruler Magic! \ud83e\uddd9\u200d\u2642\ufe0f\ud83d\udccf",
+          "order": 5
+        },
+        {
+          "id": "class7-advanced-constructions",
+          "title": "Advanced Constructions: Perpendicular & Parallel Lines",
+          "order": 6
+        },
+        {
+          "id": "class7-construction-games",
+          "title": "Construction & Properties Games Championship! \ud83c\udfc6",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "geometry-classes-8",
+      "title": "Geometry Explorer: Class 8 - Master Level Challenge! \ud83c\udfc6\ud83d\udd37",
+      "order": 3,
+      "topics": [
+        {
+          "id": "class8-quadrilateral-hierarchy",
+          "title": "Quadrilateral Family: Complete Hierarchy Tree! \ud83c\udf33",
+          "order": 1
+        },
+        {
+          "id": "class8-parallelogram-properties",
+          "title": "Parallelogram: The Slanted Rectangle \u23f8\ufe0f",
+          "order": 2
+        },
+        {
+          "id": "class8-special-parallelograms",
+          "title": "Special Parallelograms: Rectangle & Rhombus",
+          "order": 3
+        },
+        {
+          "id": "class8-trapezium-kite",
+          "title": "Trapezium & Kite: Special Quadrilaterals",
+          "order": 4
+        },
+        {
+          "id": "class8-quadrilateral-angle-sum",
+          "title": "Angle Sum Property of Quadrilaterals: The 360\u00b0 Magic! \u2728",
+          "order": 5
+        },
+        {
+          "id": "class8-diagonal-properties",
+          "title": "Diagonals Properties: The Inside Lines! \u2702\ufe0f",
+          "order": 6
+        },
+        {
+          "id": "class8-quadrilateral-games",
+          "title": "Quadrilateral Games Universe! \ud83c\udfae\ud83c\udf0c",
+          "order": 7
+        },
+        {
+          "id": "class8-quadrilateral-construction-1",
+          "title": "Constructing Quadrilaterals: Case 1 \ud83d\udccf\u2702\ufe0f",
+          "order": 8
+        },
+        {
+          "id": "class8-quadrilateral-construction-2",
+          "title": "Constructing Quadrilaterals: Case 2 \ud83d\udcd0",
+          "order": 9
+        },
+        {
+          "id": "class8-quadrilateral-construction-3",
+          "title": "Constructing Quadrilaterals: Case 3 \u2728",
+          "order": 10
+        },
+        {
+          "id": "class8-quadrilateral-construction-4",
+          "title": "Constructing Quadrilaterals: Case 4 \u26a1",
+          "order": 11
+        },
+        {
+          "id": "class8-special-quad-construction",
+          "title": "Special Quadrilaterals Construction \u2b50",
+          "order": 12
+        },
+        {
+          "id": "class8-mensuration-2d",
+          "title": "2D Shapes: Perimeter & Area Formulas Mastery! \ud83d\udccf",
+          "order": 13
+        },
+        {
+          "id": "class8-3d-shapes-types",
+          "title": "Visualizing Solid Shapes: The 3D World! \ud83c\udf0d",
+          "order": 14
+        },
+        {
+          "id": "class8-nets-3d-shapes",
+          "title": "Nets: Unfolding 3D Shapes! \ud83d\udce6\u27a1\ufe0f\ud83d\udcc4",
+          "order": 15
+        },
+        {
+          "id": "class8-euler-formula",
+          "title": "Faces, Edges & Vertices: The Euler's Formula! \ud83d\udd22",
+          "order": 16
+        },
+        {
+          "id": "class8-3d-views",
+          "title": "Views of 3D Shapes: Different Perspectives! \ud83d\udc41\ufe0f",
+          "order": 17
+        },
+        {
+          "id": "class8-surface-area-formulas",
+          "title": "Surface Area: Wrapping Paper Needed! \ud83c\udf81",
+          "order": 18
+        },
+        {
+          "id": "class8-volume-formulas",
+          "title": "Volume: The Space Inside! \ud83d\udeb0",
+          "order": 19
+        },
+        {
+          "id": "class8-mensuration-games",
+          "title": "Mensuration & 3D Games Galaxy! \ud83c\udf0c\ud83c\udfae",
+          "order": 20
+        },
+        {
+          "id": "class8-euler-verification",
+          "title": "Euler's Formula Verification Challenge",
+          "order": 21
+        },
+        {
+          "id": "class8-volume-comparison",
+          "title": "Volume Comparison Challenge",
+          "order": 22
+        },
+        {
+          "id": "class8-hands-on-experiments",
+          "title": "Hands-On Geometry Experiments",
+          "order": 23
+        },
+        {
+          "id": "class8-real-world-projects",
+          "title": "Real-World Geometry Projects",
+          "order": 24
+        },
+        {
+          "id": "class8-memory-techniques",
+          "title": "Memory Techniques for Geometry",
+          "order": 25
+        },
+        {
+          "id": "class8-career-connections",
+          "title": "Geometry in Careers & Real Life",
+          "order": 26
         }
       ]
     }

@@ -2,8 +2,8 @@
   "courseId": "math-mensuration-classes-6-7-8",
   "chapters": [
     {
-      "id": "mensuration-classes-6-7-8",
-      "title": "Mensuration Mastery: The Complete Measurement Adventure! \ud83d\udccf\ud83d\udcd0\ud83d\udce6",
+      "id": "mensuration-classes-6",
+      "title": "Mensuration Explorer: Class 6 - Begin Your Journey! \ud83d\udcda\u2728",
       "order": 1,
       "topics": [
         {
@@ -50,131 +50,145 @@
           "id": "class6-hands-on-experiments",
           "title": "Hands-On Measurement Experiments",
           "order": 9
-        },
+        }
+      ]
+    },
+    {
+      "id": "mensuration-classes-7",
+      "title": "Mensuration Explorer: Class 7 - Deep Dive into Concepts! \ud83c\udf0a\ud83d\udcca",
+      "order": 2,
+      "topics": [
         {
           "id": "class7-circle-basics",
           "title": "Circle Measurements: The Round Revolution! \u2b55",
-          "order": 10
+          "order": 1
         },
         {
           "id": "class7-area-of-circle",
           "title": "Area of Circle: The \u03c0r\u00b2 Magic! \ud83c\udfaa",
-          "order": 11
+          "order": 2
         },
         {
           "id": "class7-parallelogram-area",
           "title": "Parallelogram Area: The Slant Secret! \u23e9",
-          "order": 12
+          "order": 3
         },
         {
           "id": "class7-triangle-area-advanced",
           "title": "Triangle Area (Reinforcement): The Half Relationship! \u00bd",
-          "order": 13
+          "order": 4
         },
         {
           "id": "class7-volume-introduction",
           "title": "Introduction to Volume: The Space Inside! \ud83d\udce6",
-          "order": 14
+          "order": 5
         },
         {
           "id": "class7-surface-area-basics",
           "title": "Surface Area Introduction: The Wrapping Paper! \ud83c\udf81",
-          "order": 15
+          "order": 6
         },
         {
           "id": "class7-capacity",
           "title": "Capacity: The Liquid Volume! \ud83d\udeb0",
-          "order": 16
+          "order": 7
         },
         {
           "id": "class7-advanced-games",
           "title": "Advanced Measurement Games Championship! \ud83c\udfc6",
-          "order": 17
-        },
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "mensuration-classes-8",
+      "title": "Mensuration Explorer: Class 8 - Master Level Challenge! \ud83c\udfc6\ud83d\udd37",
+      "order": 3,
+      "topics": [
         {
           "id": "class8-trapezium-area",
           "title": "Area of Trapezium: The Slanted Sides! \ud83e\ude9c",
-          "order": 18
+          "order": 1
         },
         {
           "id": "class8-quadrilateral-area",
           "title": "Area of General Quadrilateral: The Diagonal Method! \u2702\ufe0f",
-          "order": 19
+          "order": 2
         },
         {
           "id": "class8-polygon-area",
           "title": "Area of Polygon: The Triangle Division! \ud83d\udd3a",
-          "order": 20
+          "order": 3
         },
         {
           "id": "class8-herons-formula",
           "title": "Heron's Formula: Triangle from Three Sides! \ud83d\udcd0",
-          "order": 21
+          "order": 4
         },
         {
           "id": "class8-cylinder-volume",
           "title": "Volume of Cylinder: The Circular Prism! \ud83e\udd6b",
-          "order": 22
+          "order": 5
         },
         {
           "id": "class8-volume-relationships",
           "title": "Volume Relationships: The \u2153 Connection! \ud83d\udd17",
-          "order": 23
+          "order": 6
         },
         {
           "id": "class8-cylinder-surface-area",
           "title": "Surface Area of Cylinder: The Unrolled Rectangle! \ud83d\udcdc",
-          "order": 24
+          "order": 7
         },
         {
           "id": "class8-surface-area-relationships",
           "title": "Surface Area Relationships & Optimization",
-          "order": 25
+          "order": 8
         },
         {
           "id": "class8-cost-calculations",
           "title": "Cost Calculations: Real-World Pricing",
-          "order": 26
+          "order": 9
         },
         {
           "id": "class8-optimization-problems",
           "title": "Optimization Problems: Best Design Choices",
-          "order": 27
+          "order": 10
         },
         {
           "id": "class8-composite-shapes",
           "title": "Composite Shapes: Adding & Subtracting Areas",
-          "order": 28
+          "order": 11
         },
         {
           "id": "class8-advanced-conversions",
           "title": "Advanced Conversions: The Unit Mastery! \ud83d\udd04",
-          "order": 29
+          "order": 12
         },
         {
           "id": "class8-master-games",
           "title": "Master Mensuration Games! \ud83c\udfc6\ud83c\udfae",
-          "order": 30
+          "order": 13
         },
         {
           "id": "class8-hands-on-advanced-experiments",
           "title": "Hands-On Advanced Experiments",
-          "order": 31
+          "order": 14
         },
         {
           "id": "class8-real-world-projects",
           "title": "Real-World Mensuration Projects",
-          "order": 32
+          "order": 15
         },
         {
           "id": "class8-memory-techniques",
           "title": "Memory Techniques for Mensuration",
-          "order": 33
+          "order": 16
         },
         {
           "id": "class8-career-connections",
           "title": "Mensuration in Careers & Real Life",
-          "order": 34
+          "order": 17
         }
       ]
     }

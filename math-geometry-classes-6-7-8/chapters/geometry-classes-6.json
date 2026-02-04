@@ -1,0 +1,58 @@
+{
+  "id": "geometry-classes-6",
+  "title": "Geometry Explorer: Class 6 - Begin Your Journey! \ud83d\udcda\u2728",
+  "description": "Begin your geometry adventure! Discover fundamental concepts through fun activities and real-world examples. Perfect for Class 6 students starting their journey.",
+  "practice-quiz": true,
+  "subtopics": [
+    {
+      "id": "class6-geometry-fundamentals",
+      "title": "The Fundamental Five: Geometry's Alphabet! \ud83d\udd24",
+      "content": "**1. Point: The Tiny Dot of Beginning!** \ud83d\udd34\n**Simple Explanation:** A point is the smallest building block - it has position but no size! Think of it as a star in the night sky or a tiny dot from your pencil.\n\n**Memory Aid:** \"**P**oint = **P**erfectly **P**ositioned **P**inprick!\" \ud83d\udccd\n\n**2. Line: The Never-Ending Path!** \u221e\n**Simple Explanation:** A line goes on forever in both directions! Imagine a straight road that never ends or a laser beam in space.\n\n**Characteristics:**\n- Infinite length\n- No endpoints\n- Straight\n\n**3. Ray: The One-Way Street!** \u2192\n**Simple Explanation:** A ray starts at a point and goes forever in ONE direction! Like sunlight rays from the sun or a flashlight beam.\n\n**Memory Aid:** \"**R**ay = **R**unning **R**ight from start, never turning back!\" \ud83c\udfc3\u200d\u2642\ufe0f\n\n**4. Line Segment: The Measurable Piece!** \ud83d\udccf\n**Simple Explanation:** A line segment has TWO endpoints - it's a piece of a line you can measure! Like a pencil, a stick, or your arm.\n\n**Visual Prompt:** \"The Geometry Family Tree\"\n```\n         Geometry Universe\n                |\n               Point (.)\n                |\n            \u2199\ufe0f   \u2193   \u2198\ufe0f\n        Line    Ray    Line Segment\n        (\u221e)    (\u2192)     (\u2500\u2500)\n        /       |        \\\n   Straight   Starts at  Has two\n   forever     point     endpoints\n```"
+    },
+    {
+      "id": "class6-angle-basics",
+      "title": "Angle: The Turn Between Rays! \u21ba",
+      "content": "**Simple Explanation:** An angle is the amount of turn between two rays meeting at a point (vertex).\n\n**Relatable Story:** Imagine opening a book:\n- Completely closed: 0\u00b0 angle \ud83d\udcd5\n- Partially open: Acute angle \ud83d\udcd6\n- Half open: Right angle (90\u00b0) \ud83d\udcd8\n- Fully open flat: Straight angle (180\u00b0) \ud83d\udcd7\n\n**Angle Components:**\n- **Vertex:** Meeting point of two rays\n- **Arms:** The two rays forming the angle\n- **Measure:** Amount of turn (in degrees)\n\n**Measuring Angles:**\nUse a protractor to measure angles accurately\nPlace center on vertex, align baseline with one arm\n\n**Memory Aid:** \"**A**ngle = **A**mount of **A**perture between **A**rms!\""
+    },
+    {
+      "id": "class6-types-of-angles",
+      "title": "Types of Angles: The Angle Zoo! \ud83e\udd81\ud83d\udc2f\ud83d\udc18",
+      "content": "**1. Acute Angle:** The Cute Baby Angle! \ud83d\udc76\n- Less than 90\u00b0\n- Sharp and pointy\n- Examples: Pizza slice tip (30\u00b0), clock at 1:00 (30\u00b0)\n\n**2. Right Angle:** The Perfect Corner Angle! \ud83d\udcd0\n- Exactly 90\u00b0\n- Forms perfect \"L\" shape\n- Examples: Book corner, door frame, table edge\n\n**3. Obtuse Angle:** The Wide, Comfortable Angle! \ud83d\udecb\ufe0f\n- Between 90\u00b0 and 180\u00b0\n- Wide open\n- Examples: Opened fan, spread fingers\n\n**4. Straight Angle:** The Flat-as-Pancake Angle! \ud83e\udd5e\n- Exactly 180\u00b0\n- Forms straight line\n- Examples: Opened book lying flat, 6:00 on clock\n\n**5. Reflex Angle:** The Super-Stretch Angle! \ud83e\udd38\u200d\u2640\ufe0f\n- Between 180\u00b0 and 360\u00b0\n- More than half circle\n- Examples: Opened umbrella, fan beyond 180\u00b0\n\n**6. Complete Angle:** The Full Circle Angle! \ud83d\udd04\n- Exactly 360\u00b0\n- One full rotation\n- Examples: Ferris wheel one rotation, spinning top\n\n**Interactive Activity:** \"Angle Hunt Safari\"\nGo on a classroom safari finding:\n- 5 acute angles (window corners)\n- 5 right angles (book corners)\n- 5 obtuse angles (open door position)\nPhotograph and classify!"
+    },
+    {
+      "id": "class6-triangle-classification-sides",
+      "title": "Triangles: The Three-Sided Wonders! \ud83d\udd3a",
+      "content": "**Classification by Sides:**\n1. **Equilateral Triangle:** All sides equal, all angles 60\u00b0 \u2696\ufe0f\n   - Perfect balance\n   - Example: Yield traffic sign\n\n2. **Isosceles Triangle:** Two equal sides, two equal angles \ud83e\uddb5\ud83e\uddb5\n   - Like legs standing\n   - Example: Pizza slice\n\n3. **Scalene Triangle:** All sides different, all angles different \ud83c\udf08\n   - Unique personality\n   - Example: Random torn paper piece\n\n**Visual Identification:**\n```\nEquilateral: \u25b7\u25b7\u25b7 (all sides equal)\nIsosceles:   \u25b7\u25b7  (two sides equal)\nScalene:     \u25b7   (all sides different)\n```\n\n**Memory Aid:** \"**E**quilateral = **E**qual everything!\"\n\n**Angle Note:** In equilateral triangle, all angles are 60\u00b0\nIn isosceles triangle, angles opposite equal sides are equal"
+    },
+    {
+      "id": "class6-triangle-classification-angles",
+      "title": "Triangles by Angles: Different Personalities!",
+      "content": "**Classification by Angles:**\n1. **Acute Triangle:** All angles < 90\u00b0 \ud83d\ude0a\n   - All cute angles\n   - Example: Most mountain peaks\n\n2. **Right Triangle:** One angle = 90\u00b0 \ud83d\udcd0\n   - Has a perfect corner\n   - Example: Triangle ruler\n\n3. **Obtuse Triangle:** One angle > 90\u00b0 \ud83d\ude2e\n   - Has a wide mouth\n   - Example: Slice of pie with wide opening\n\n**Combined Classification:**\nA triangle can be classified by both sides AND angles:\n- Right Isosceles Triangle\n- Acute Scalene Triangle\n- Obtuse Isosceles Triangle\n\n**Memory Aid:** \"**A**cute = **A**ll **A**ngles cute (<90\u00b0)!\"\n\n**Special Triangles:**\n- **Right Triangle:** Has hypotenuse (longest side)\n- **Isosceles Right Triangle:** 45\u00b0-45\u00b0-90\u00b0 triangle\n- **30\u00b0-60\u00b0-90\u00b0 Triangle:** Special right triangle"
+    },
+    {
+      "id": "class6-quadrilateral-family",
+      "title": "Quadrilaterals: The Four-Sided Family! \ud83d\udd32",
+      "content": "**The Quadrilateral Family Tree:**\n```\n         Quadrilateral (4 sides)\n           /     |     \\\n    Trapezium  Kite  Parallelogram\n                     /     |     \\\n               Rectangle Rhombus Square\n```\n\n**Key Members:**\n1. **Square:** Perfect equal everything \u2b1c\n   - All sides equal\n   - All angles 90\u00b0\n   - Example: Chess board square\n\n2. **Rectangle:** Opposite sides equal, all angles 90\u00b0 \ud83d\udcf1\n   - Like stretched square\n   - Example: Phone screen, door\n\n3. **Rhombus:** All sides equal, opposite angles equal \ud83d\udc8e\n   - Diamond shape\n   - Example: Baseball field, kite\n\n4. **Parallelogram:** Opposite sides parallel and equal \u23f8\ufe0f\n   - Slanted rectangle\n   - Example: Eraser, ramp\n\n**Memory Aid:** \"**Q**uadrilateral = **Q**uadruple sides!\""
+    },
+    {
+      "id": "class6-special-quadrilaterals",
+      "title": "Special Quadrilaterals: Trapezium & Kite",
+      "content": "**5. Trapezium (US: Trapezoid):** One pair parallel sides \ud83e\ude9c\n- Like a table\n- Example: Bridge support\n\n**Types of Trapezium:**\n- **Isosceles Trapezium:** Non-parallel sides equal\n- **Right Trapezium:** Has two right angles\n- **Scalene Trapezium:** No special features\n\n**6. Kite:** Two pairs adjacent sides equal \ud83e\ude81\n- Actual kite shape\n- Example: Traditional kite\n\n**Kite Properties:**\n- Two pairs of equal adjacent sides\n- One pair of opposite angles equal\n- Diagonals perpendicular\n\n**Memory Aid:** \"**T**rapezium = **T**able shape!\"\n\n**Family Relationships:**\n- Square is special rectangle AND special rhombus\n- Rectangle is special parallelogram\n- Rhombus is special parallelogram\n- Square is ultimate quadrilateral!"
+    },
+    {
+      "id": "class6-circle-vocabulary",
+      "title": "Circles: The Perfect Round! \u2b55",
+      "content": "**Circle Vocabulary:**\n1. **Center:** The middle point, equal distance to all edges \ud83c\udfaf\n2. **Radius:** Distance from center to edge (Half the story!) \ud83d\udccf\n3. **Diameter:** Distance across through center (Double radius!) \u2194\ufe0f\n4. **Circumference:** The distance around (The perimeter!) \ud83d\udd04\n5. **Chord:** Line connecting two points on circle \ud83c\udfbb\n6. **Arc:** Piece of the circumference \ud83c\udf55\n7. **Sector:** Pizza slice shape \ud83c\udf55\n8. **Segment:** Area between chord and arc \ud83c\udfb5\n\n**Memory Aid:** \"**C**ircle = **C**enter + **C**ircumference!\"\n\n**Formula Relationships:**\n- Diameter = 2 \u00d7 Radius (D = 2R)\n- Radius = Diameter \u00f7 2 (R = D/2)\n- Circumference = \u03c0 \u00d7 Diameter (C = \u03c0D) or 2\u03c0R\n\n**Visual Circle:**\n```\n          \u2b55 Circle\n          /   |   \\\n    Radius  Diameter  Circumference\n      (r)     (2r)       (2\u03c0r)\n```"
+    },
+    {
+      "id": "class6-symmetry-basics",
+      "title": "Symmetry: The Mirror Magic! \ud83e\ude9e",
+      "content": "**Line Symmetry:** When one half is mirror image of other\n\n**Finding Symmetry Lines:**\n1. **Square:** 4 lines (vertical, horizontal, two diagonals) \u2b1c\n2. **Rectangle:** 2 lines (vertical, horizontal) \ud83d\udcf1\n3. **Circle:** Infinite lines through center! \u2b55\n4. **Equilateral Triangle:** 3 lines \ud83d\udcd0\n5. **Isosceles Triangle:** 1 line \ud83c\udfd4\ufe0f\n6. **Human Face:** Approximate 1 line (vertical) \ud83d\ude0a\n\n**How to Test for Symmetry:**\n1. Imagine folding shape along line\n2. If both halves match exactly \u2192 Symmetry line!\n3. Or use mirror along line\n\n**Interactive Activity:** \"Symmetry Art Creation\"\nFold paper, paint on one side, press to create symmetrical art!\n\n**Real Symmetry Hunt:** Find symmetric objects:\n- Butterflies \ud83e\udd8b\n- Leaves \ud83c\udf43\n- Buildings \ud83c\udfdb\ufe0f\n- Letters (A, B, C, D, E, H, I, M, O, T, U, V, W, X, Y)"
+    },
+    {
+      "id": "class6-geometry-games",
+      "title": "Geometry Basics Games Extravaganza! \ud83c\udfaa",
+      "content": "**Game 1: Point, Line, Ray, Segment Sorting**\nClassify these:\n1. Edge of paper: ______\n2. Star in sky: ______\n3. Sunlight beam: ______\n4. Pencil: ______\n5. Laser pointer: ______\n\n**Game 2: Angle Estimation Championship**\nEstimate, then measure with protractor:\n1. Door partly open: ______\u00b0\n2. Clock hands at 3:00: ______\u00b0\n3. Pizza slice: ______\u00b0\n4. Your elbow bent: ______\u00b0\n5. Scissors opened: ______\u00b0\n\n**Game 3: Triangle Classification Race**\nClassify triangles:\n1. Sides: 3cm, 3cm, 3cm \u2192 ______ triangle\n2. Angles: 45\u00b0, 45\u00b0, 90\u00b0 \u2192 ______ triangle\n3. Sides: 5cm, 6cm, 7cm \u2192 ______ triangle\n4. Angles: 30\u00b0, 60\u00b0, 90\u00b0 \u2192 ______ triangle\n5. Sides: 4cm, 4cm, 5cm \u2192 ______ triangle"
+    }
+  ]
+}

@@ -2,8 +2,8 @@
   "courseId": "math-number-system-classes-6-7-8",
   "chapters": [
     {
-      "id": "number-system-classes-6-7-8",
-      "title": "Number Adventures: A Journey Through the World of Numbers! \ud83c\udfa2",
+      "id": "number-system-classes-6",
+      "title": "Number-system Explorer: Class 6 - Begin Your Journey! \ud83d\udcda\u2728",
       "order": 1,
       "topics": [
         {
@@ -75,131 +75,145 @@
           "id": "class6-hcf-lcm-methods",
           "title": "HCF & LCM Calculation Methods",
           "order": 14
-        },
+        }
+      ]
+    },
+    {
+      "id": "number-system-classes-7",
+      "title": "Number-system Explorer: Class 7 - Deep Dive into Concepts! \ud83c\udf0a\ud83d\udcca",
+      "order": 2,
+      "topics": [
         {
           "id": "class7-integer-addition-subtraction",
           "title": "Integer Addition & Subtraction: The Friend-Making Game! \ud83e\udd17",
-          "order": 15
+          "order": 1
         },
         {
           "id": "class7-integer-multiplication-division",
           "title": "Integer Multiplication & Division: The Sign Pattern Game! \ud83d\udd22",
-          "order": 16
+          "order": 2
         },
         {
           "id": "class7-integer-games",
           "title": "Integer Games Arcade! \ud83c\udfae",
-          "order": 17
+          "order": 3
         },
         {
           "id": "class7-fractions-basics",
           "title": "Fractions: Pizza Party Mathematics! \ud83c\udf55",
-          "order": 18
+          "order": 4
         },
         {
           "id": "class7-decimals-basics",
           "title": "Decimals: The Point Precision! \ud83d\udd0d",
-          "order": 19
+          "order": 5
         },
         {
           "id": "class7-fraction-operations",
           "title": "Fraction Operations: Adding & Subtracting",
-          "order": 20
+          "order": 6
         },
         {
           "id": "class7-fraction-multiplication-division",
           "title": "Fraction Multiplication & Division Magic! \u2728",
-          "order": 21
+          "order": 7
         },
         {
           "id": "class7-decimal-operations",
           "title": "Decimal Operations: Precision Calculations",
-          "order": 22
+          "order": 8
         },
         {
           "id": "class7-fraction-decimal-games",
           "title": "Fraction & Decimal Fun Fair! \ud83c\udfa1",
-          "order": 23
+          "order": 9
         },
         {
           "id": "class7-rational-numbers-intro",
           "title": "What Are Rational Numbers? The Great Unifiers! \ud83e\udd1d",
-          "order": 24
+          "order": 10
         },
         {
           "id": "class7-rational-standard-form",
           "title": "Standard Form: The Superhero Costume! \ud83e\uddb8\u200d\u2642\ufe0f",
-          "order": 25
+          "order": 11
         },
         {
           "id": "class7-rational-number-line",
           "title": "Number Line Placement: Finding Your Spot! \ud83d\udccd",
-          "order": 26
+          "order": 12
         },
         {
           "id": "class7-rational-density",
           "title": "The Density Magic: Always Room for More! \u2728",
-          "order": 27
-        },
+          "order": 13
+        }
+      ]
+    },
+    {
+      "id": "number-system-classes-8",
+      "title": "Number-system Explorer: Class 8 - Master Level Challenge! \ud83c\udfc6\ud83d\udd37",
+      "order": 3,
+      "topics": [
         {
           "id": "class8-rational-properties",
           "title": "Property Palace: Where Numbers Follow Rules! \ud83c\udff0",
-          "order": 28
+          "order": 1
         },
         {
           "id": "class8-more-rational-properties",
           "title": "More Rational Number Properties",
-          "order": 29
+          "order": 2
         },
         {
           "id": "class8-decimal-types",
           "title": "Decimal Personalities: Terminating vs Repeating! \ud83d\udd04",
-          "order": 30
+          "order": 3
         },
         {
           "id": "class8-decimal-fraction-conversion",
           "title": "Decimal \u2194 Fraction Conversion Magic",
-          "order": 31
+          "order": 4
         },
         {
           "id": "class8-perfect-squares",
           "title": "Perfect Squares: When Numbers Make Perfect Shapes! \u2b1b",
-          "order": 32
+          "order": 5
         },
         {
           "id": "class8-square-number-secrets",
           "title": "Square Number Secrets: Detective Work! \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
-          "order": 33
+          "order": 6
         },
         {
           "id": "class8-square-roots",
           "title": "Square Roots: Un-making the Square! \ud83d\udd04",
-          "order": 34
+          "order": 7
         },
         {
           "id": "class8-pythagorean-triplets",
           "title": "Pythagorean Triplets: The Right Angle Friends! \ud83d\udcd0",
-          "order": 35
+          "order": 8
         },
         {
           "id": "class8-perfect-cubes",
           "title": "Perfect Cubes: Numbers That Build Cubes! \ud83c\udfb2",
-          "order": 36
+          "order": 9
         },
         {
           "id": "class8-cube-number-clues",
           "title": "Cube Number Clues: The Ending Mysteries! \ud83d\udd0d",
-          "order": 37
+          "order": 10
         },
         {
           "id": "class8-cube-roots",
           "title": "Cube Roots: Un-building the Cube! \ud83d\udd28",
-          "order": 38
+          "order": 11
         },
         {
           "id": "class8-hardy-ramanujan-magic",
           "title": "Hardy-Ramanujan Numbers: The Magic 1729! \u2728",
-          "order": 39
+          "order": 12
         }
       ]
     }
