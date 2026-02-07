@@ -703,10 +703,19 @@
             chapters.forEach(chapter => {
                 const div = document.createElement('div');
                 div.className = 'checkbox-item';
-                div.innerHTML = `
-                    <input type="checkbox" id="chapter-${chapter.id}" value="${chapter.id}" data-topics='${JSON.stringify(chapter.topics)}'>
-                    <label for="chapter-${chapter.id}">${chapter.title}</label>
-                `;
+                
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.id = `chapter-${chapter.id}`;
+                checkbox.value = chapter.id;
+                checkbox.setAttribute('data-topics', JSON.stringify(chapter.topics));
+                
+                const label = document.createElement('label');
+                label.htmlFor = `chapter-${chapter.id}`;
+                label.textContent = chapter.title;
+                
+                div.appendChild(checkbox);
+                div.appendChild(label);
                 chapterSelect.appendChild(div);
             });
         }
@@ -1188,7 +1197,7 @@
                 }
                 
                 // Render markdown content
-                const htmlContent = marked(explanationMarkdown);
+                const htmlContent = marked.parse(explanationMarkdown);
                 explanationContent.innerHTML = htmlContent;
                 explanationContainer.style.display = 'block';
                 
